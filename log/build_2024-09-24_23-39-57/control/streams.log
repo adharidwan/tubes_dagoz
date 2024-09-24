@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adha/belajar/ws1/src/control -DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/control
+[0.019s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.261s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.262s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.360s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.384s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.385s] -- Checking for module 'ncurses'
+[0.396s] --   Found ncurses, version 6.4.20240113
+[0.486s] -- Configuring done (0.5s)
+[0.495s] -- Generating done (0.0s)
+[0.495s] -- Build files have been written to: /home/adha/belajar/ws1/build/control
+[0.505s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adha/belajar/ws1/src/control -DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/control
+[0.506s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.551s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o[0m
+[2.174s] [01m[K/home/adha/belajar/ws1/src/control/src/keyboard_input.cpp:[m[K In member function ‘[01m[Kvoid KeyboardInputNode::[01;32m[KcontrolLoop[m[K()[m[K’:
+[2.175s] [01m[K/home/adha/belajar/ws1/src/control/src/keyboard_input.cpp:41:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_time[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.175s]    41 |             auto [01;35m[Kstart_time[m[K = std::chrono::steady_clock::now();
+[2.175s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[3.675s] [100%] [32m[1mLinking CXX executable keyboard_input[0m
+[3.866s] [100%] Built target keyboard_input
+[3.876s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[3.909s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adha/belajar/ws1/build/control
+[3.914s] -- Install configuration: ""
+[3.915s] -- Installing: /home/adha/belajar/ws1/install/control/lib/control/keyboard_input
+[3.916s] -- Set non-toolchain portion of runtime path of "/home/adha/belajar/ws1/install/control/lib/control/keyboard_input" to ""
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.sh
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.dsv
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/environment/path.sh
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/environment/path.dsv
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/local_setup.bash
+[3.916s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/local_setup.sh
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/local_setup.zsh
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/local_setup.dsv
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/package.dsv
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/packages/control
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig.cmake
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig-version.cmake
+[3.917s] -- Installing: /home/adha/belajar/ws1/install/control/share/control/package.xml
+[3.919s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adha/belajar/ws1/build/control

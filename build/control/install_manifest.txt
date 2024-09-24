@@ -1,0 +1,16 @@
+/home/adha/belajar/ws1/install/control/lib/control/keyboard_input
+/home/adha/belajar/ws1/install/control/share/ament_index/resource_index/package_run_dependencies/control
+/home/adha/belajar/ws1/install/control/share/ament_index/resource_index/parent_prefix_path/control
+/home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.sh
+/home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.dsv
+/home/adha/belajar/ws1/install/control/share/control/environment/path.sh
+/home/adha/belajar/ws1/install/control/share/control/environment/path.dsv
+/home/adha/belajar/ws1/install/control/share/control/local_setup.bash
+/home/adha/belajar/ws1/install/control/share/control/local_setup.sh
+/home/adha/belajar/ws1/install/control/share/control/local_setup.zsh
+/home/adha/belajar/ws1/install/control/share/control/local_setup.dsv
+/home/adha/belajar/ws1/install/control/share/control/package.dsv
+/home/adha/belajar/ws1/install/control/share/ament_index/resource_index/packages/control
+/home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig.cmake
+/home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig-version.cmake
+/home/adha/belajar/ws1/install/control/share/control/package.xml

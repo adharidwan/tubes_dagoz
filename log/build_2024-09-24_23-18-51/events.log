@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000386] (control) JobStarted: {'identifier': 'control'}
+[0.010622] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.010995] (control) Command: {'cmd': ['/usr/bin/cmake', '/home/adha/belajar/ws1/src/control', '-DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/control'], 'cwd': '/home/adha/belajar/ws1/build/control', 'env': OrderedDict({'USER': 'adha', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adha', 'OLDPWD': '/home/adha', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/adha/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '4000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/adha/belajar/ws1/install', 'LOGNAME': 'adha', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'adha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adha-LOQ-15APH8:@/tmp/.ICE-unix/3780,unix/adha-LOQ-15APH8:/tmp/.ICE-unix/3780', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3c0fdca6_d3dc_4852_baf2_f05dfcb89ec8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.95', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/adha/belajar/ws1/build/control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099596] (-) TimerEvent: {}
+[0.104611] (control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.181234] (control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.199705] (-) TimerEvent: {}
+[0.200293] (control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.282125] (control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.287738] (control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.288269] (control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.288688] (control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.298280] (control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299785] (-) TimerEvent: {}
+[0.382495] (control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.387947] (control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.388153] (control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.388443] (control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393823] (control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.399901] (-) TimerEvent: {}
+[0.488616] (control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500002] (-) TimerEvent: {}
+[0.577624] (control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.600095] (-) TimerEvent: {}
+[0.613652] (control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.624882] (control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.639469] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.653521] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700175] (-) TimerEvent: {}
+[0.716831] (control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.719333] (control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.793647] (control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.800244] (-) TimerEvent: {}
+[0.809090] (control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.826755] (control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.889599] (control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.900362] (-) TimerEvent: {}
+[0.927229] (control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.927477] (control) StderrLine: {'line': b'  By not providing "FindNCurses.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.927573] (control) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "NCurses", but\n'}
+[0.927643] (control) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.927705] (control) StderrLine: {'line': b'\n'}
+[0.927766] (control) StderrLine: {'line': b'  Could not find a package configuration file provided by "NCurses" with any\n'}
+[0.927832] (control) StderrLine: {'line': b'  of the following names:\n'}
+[0.927916] (control) StderrLine: {'line': b'\n'}
+[0.927978] (control) StderrLine: {'line': b'    NCursesConfig.cmake\n'}
+[0.928036] (control) StderrLine: {'line': b'    ncurses-config.cmake\n'}
+[0.928068] (control) StderrLine: {'line': b'\n'}
+[0.928097] (control) StderrLine: {'line': b'  Add the installation prefix of "NCurses" to CMAKE_PREFIX_PATH or set\n'}
+[0.928127] (control) StderrLine: {'line': b'  "NCurses_DIR" to a directory containing one of the above files.  If\n'}
+[0.928157] (control) StderrLine: {'line': b'  "NCurses" provides a separate development package or SDK, be sure it has\n'}
+[0.928187] (control) StderrLine: {'line': b'  been installed.\n'}
+[0.928215] (control) StderrLine: {'line': b'\n'}
+[0.928248] (control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.928277] (control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.935072] (control) CommandEnded: {'returncode': 1}
+[0.954843] (control) JobEnded: {'identifier': 'control', 'rc': 1}
+[0.965255] (-) EventReactorShutdown: {}
