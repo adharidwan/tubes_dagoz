@@ -17,7 +17,9 @@ include_directories(${NCURSES_INCLUDE_DIRS})
 link_directories(${NCURSES_LIBRARY_DIRS})
 
 add_executable(keyboard_input src/keyboard_input.cpp)
+add_executable(translator_node src/translator_node.cpp)
 ament_target_dependencies(keyboard_input rclcpp geometry_msgs)
+ament_target_dependencies(translator_node rclcpp geometry_msgs)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -26,6 +28,7 @@ target_link_libraries(keyboard_input ${NCURSES_LIBRARIES})
 
 install(TARGETS
   keyboard_input
+  translator_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

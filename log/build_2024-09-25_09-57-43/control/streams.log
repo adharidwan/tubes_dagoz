@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.068s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.413s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.484s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.695s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.090s] -- Configuring done (1.0s)
+[1.099s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[1.099s]   Cannot find source file:
+[1.099s] 
+[1.099s]     src/translator_node.cpp
+[1.100s] 
+[1.100s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.100s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.100s]   .f95 .f03 .hip .ispc
+[1.100s] 
+[1.100s] [0m
+[1.100s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[1.100s]   No SOURCES given to target: translator_node
+[1.100s] 
+[1.100s] [0m
+[1.100s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.113s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.117s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12

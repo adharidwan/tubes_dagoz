@@ -655,4 +655,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/control_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/keyboard_input.dir/DependInfo.cmake"
+  "CMakeFiles/translator_node.dir/DependInfo.cmake"
   )

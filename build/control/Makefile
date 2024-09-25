@@ -210,6 +210,19 @@ keyboard_input/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/build
 .PHONY : keyboard_input/fast
 
+#=============================================================================
+# Target rules for targets named translator_node
+
+# Build rule for target.
+translator_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 translator_node
+.PHONY : translator_node
+
+# fast build rule for target.
+translator_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/build
+.PHONY : translator_node/fast
+
 src/keyboard_input.o: src/keyboard_input.cpp.o
 .PHONY : src/keyboard_input.o
 
@@ -234,6 +247,30 @@ src/keyboard_input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.s
 .PHONY : src/keyboard_input.cpp.s
 
+src/translator_node.o: src/translator_node.cpp.o
+.PHONY : src/translator_node.o
+
+# target to build an object file
+src/translator_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.o
+.PHONY : src/translator_node.cpp.o
+
+src/translator_node.i: src/translator_node.cpp.i
+.PHONY : src/translator_node.i
+
+# target to preprocess a source file
+src/translator_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.i
+.PHONY : src/translator_node.cpp.i
+
+src/translator_node.s: src/translator_node.cpp.s
+.PHONY : src/translator_node.s
+
+# target to generate assembly for a file
+src/translator_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.s
+.PHONY : src/translator_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... control_uninstall"
 	@echo "... uninstall"
 	@echo "... keyboard_input"
+	@echo "... translator_node"
 	@echo "... src/keyboard_input.o"
 	@echo "... src/keyboard_input.i"
 	@echo "... src/keyboard_input.s"
+	@echo "... src/translator_node.o"
+	@echo "... src/translator_node.i"
+	@echo "... src/translator_node.s"
 .PHONY : help
 
 
