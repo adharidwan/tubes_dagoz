@@ -1,0 +1,10 @@
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/uninstall.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/control_uninstall.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/keyboard_input.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/test.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/edit_cache.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/rebuild_cache.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/list_install_components.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/install.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/install/local.dir
+/home/alyazahrarr/tubes_dagoz/build/control/CMakeFiles/install/strip.dir

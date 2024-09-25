@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000463] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000612] (control) JobStarted: {'identifier': 'control'}
+[0.043361] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.045767] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.048126] (control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alyazahrarr/tubes_dagoz/build/control', '--', '-j8', '-l8'], 'cwd': '/home/alyazahrarr/tubes_dagoz/build/control', 'env': OrderedDict({'USER': 'alyazahrarr', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alyazahrarr/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alyazahrarr', 'OLDPWD': '/home/alyazahrarr/tubes_dagoz/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/alyazahrarr/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/alyazahrarr/ros2_ws/install', 'LOGNAME': 'alyazahrarr', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'alyazahrarr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alyazahrarr:@/tmp/.ICE-unix/2707,unix/alyazahrarr:/tmp/.ICE-unix/2707', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5f6b29fb_19bf_4e16_b4d0_38972f232e64', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.113', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alyazahrarr/ros2_ws/install/my_package:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_wait_set:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_timer:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_composition:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_cbg_executor:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/alyazahrarr/tubes_dagoz/build/control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alyazahrarr/ros2_ws/build/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/alyazahrarr/ros2_ws/build/examples_rclpy_executors:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/alyazahrarr/ros2_ws/install/my_package:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_wait_set:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_timer:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_composition:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_cbg_executor:/home/alyazahrarr/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.096996] (-) TimerEvent: {}
+[0.159954] (control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.197172] (-) TimerEvent: {}
+[0.297928] (-) TimerEvent: {}
+[0.398583] (-) TimerEvent: {}
+[0.499213] (-) TimerEvent: {}
+[0.599837] (-) TimerEvent: {}
+[0.700469] (-) TimerEvent: {}
+[0.801104] (-) TimerEvent: {}
+[0.901760] (-) TimerEvent: {}
+[1.002430] (-) TimerEvent: {}
+[1.103103] (-) TimerEvent: {}
+[1.180527] (control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.203297] (-) TimerEvent: {}
+[1.303956] (-) TimerEvent: {}
+[1.404584] (-) TimerEvent: {}
+[1.435358] (control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.504832] (-) TimerEvent: {}
+[1.525332] (control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.605061] (-) TimerEvent: {}
+[1.636702] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.705289] (-) TimerEvent: {}
+[1.749750] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.805510] (-) TimerEvent: {}
+[1.906063] (-) TimerEvent: {}
+[2.006706] (-) TimerEvent: {}
+[2.107398] (-) TimerEvent: {}
+[2.208089] (-) TimerEvent: {}
+[2.226059] (control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.253020] (control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.308324] (-) TimerEvent: {}
+[2.409002] (-) TimerEvent: {}
+[2.509666] (-) TimerEvent: {}
+[2.610308] (-) TimerEvent: {}
+[2.701300] (control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.710565] (-) TimerEvent: {}
+[2.804655] (control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.810724] (-) TimerEvent: {}
+[2.911476] (-) TimerEvent: {}
+[2.926535] (control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.011688] (-) TimerEvent: {}
+[3.112426] (-) TimerEvent: {}
+[3.213102] (-) TimerEvent: {}
+[3.313713] (-) TimerEvent: {}
+[3.414410] (-) TimerEvent: {}
+[3.439233] (control) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.514651] (-) TimerEvent: {}
+[3.528332] (control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.614862] (-) TimerEvent: {}
+[3.648716] (control) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.679002] (control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[3.715126] (-) TimerEvent: {}
+[3.783999] (control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.815359] (-) TimerEvent: {}
+[3.916025] (-) TimerEvent: {}
+[4.016662] (-) TimerEvent: {}
+[4.117298] (-) TimerEvent: {}
+[4.217920] (-) TimerEvent: {}
+[4.233799] (control) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):\n'}
+[4.234553] (control) StderrLine: {'line': b'  control is not a CMake target.  Maybe rosidl_generate_interfaces was given\n'}
+[4.234891] (control) StderrLine: {'line': b'  a different target name?\n'}
+[4.235256] (control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.235590] (control) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_get_typesupport_target)\n'}
+[4.235961] (control) StderrLine: {'line': b'\n'}
+[4.236245] (control) StderrLine: {'line': b'\x1b[0m\n'}
+[4.236579] (control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.262069] (control) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[4.269071] (control) CommandEnded: {'returncode': 2}
+[4.318158] (-) TimerEvent: {}
+[4.398445] (control) JobEnded: {'identifier': 'control', 'rc': 2}
+[4.410088] (-) EventReactorShutdown: {}

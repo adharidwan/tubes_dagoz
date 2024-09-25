@@ -1,0 +1,42 @@
+[0.057s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alyazahrarr/tubes_dagoz/src/control -DCMAKE_INSTALL_PREFIX=/home/alyazahrarr/tubes_dagoz/install/control
+[0.362s] -- The C compiler identification is GNU 13.2.0
+[0.644s] -- The CXX compiler identification is GNU 13.2.0
+[0.714s] -- Detecting C compiler ABI info
+[1.102s] -- Detecting C compiler ABI info - done
+[1.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.168s] -- Detecting C compile features
+[1.170s] -- Detecting C compile features - done
+[1.219s] -- Detecting CXX compiler ABI info
+[1.668s] -- Detecting CXX compiler ABI info - done
+[1.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.735s] -- Detecting CXX compile features
+[1.739s] -- Detecting CXX compile features - done
+[1.784s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.586s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.207s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.784s] -- Added test 'lint_cmake' to check CMake code style
+[3.790s] -- Added test 'xmllint' to check XML markup files
+[3.799s] -- Configuring done (3.7s)
+[3.810s] -- Generating done (0.0s)
+[3.813s] -- Build files have been written to: /home/alyazahrarr/tubes_dagoz/build/control
+[3.833s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alyazahrarr/tubes_dagoz/src/control -DCMAKE_INSTALL_PREFIX=/home/alyazahrarr/tubes_dagoz/install/control
+[3.839s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[3.991s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[4.110s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alyazahrarr/tubes_dagoz/build/control
+[4.143s] -- Install configuration: ""
+[4.144s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[4.145s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[4.145s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/ament_prefix_path.sh
+[4.146s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/ament_prefix_path.dsv
+[4.147s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/path.sh
+[4.147s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/path.dsv
+[4.148s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.bash
+[4.149s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.sh
+[4.150s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.zsh
+[4.151s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.dsv
+[4.151s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/package.dsv
+[4.152s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/packages/control
+[4.153s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/cmake/controlConfig.cmake
+[4.153s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/cmake/controlConfig-version.cmake
+[4.153s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/package.xml
+[4.161s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alyazahrarr/tubes_dagoz/build/control
