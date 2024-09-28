@@ -1,0 +1,6 @@
+{
+  "package_name": "can_msgs",
+  "non_idl_tuples": [
+    "/home/alyazahrarr/tubes_dagoz/src/can_msgs:msg/Frame.msg"
+  ]
+}

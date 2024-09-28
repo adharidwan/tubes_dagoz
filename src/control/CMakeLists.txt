@@ -22,8 +22,10 @@ include_directories(include ${ncurses_INCLUDE_DIRS})
 add_executable(keyboard_input src/keyboard_input.cpp)
 ament_target_dependencies(keyboard_input rclcpp geometry_msgs)
 target_link_libraries(keyboard_input ncurses)
-
 ament_export_dependencies(rosidl_default_runtime)
+
+add_executable(translator_node src/translator_node.cpp)
+ament_target_dependencies(translator_node rclcpp geometry_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -39,6 +41,7 @@ endif()
 
 install(TARGETS
   keyboard_input
+  translator_node
   DESTINATION lib/${PROJECT_NAME})
 
 # rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)

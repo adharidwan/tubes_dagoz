@@ -1,0 +1,68 @@
+[0.028s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[0.086s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.943s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.042s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.074s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.290s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.295s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.600s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.636s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.661s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.666s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.710s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.942s] -- Configured cppcheck include dirs: /home/alyazahrarr/tubes_dagoz/src/control/include
+[1.942s] -- Configured cppcheck exclude dirs and/or files: 
+[1.944s] -- Added test 'lint_cmake' to check CMake code style
+[1.946s] -- Added test 'uncrustify' to check C / C++ code style
+[1.946s] -- Configured uncrustify additional arguments: 
+[1.947s] -- Added test 'xmllint' to check XML markup files
+[1.950s] -- Configuring done (1.9s)
+[1.986s] -- Generating done (0.0s)
+[1.990s] -- Build files have been written to: /home/alyazahrarr/tubes_dagoz/build/control
+[2.081s] [ 25%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[2.107s] [ 75%] Built target keyboard_input
+[7.345s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.346s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[7.346s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[7.346s]                  from [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:3[m[K:
+[7.346s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In lambda function:
+[7.346s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:13:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[7.346s]    13 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Linear x: '%s'"[m[K, [32m[Kmsg.linear.x[m[K);
+[7.347s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~[m[K
+[7.347s]       |                                                                      [32m[K|[m[K
+[7.347s]       |                                                                      [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[7.347s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:13:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[7.347s]    13 |         RCLCPP_INFO(this->get_logger(), "Linear x: '[01;36m[K%s[m[K'", msg.linear.x);
+[7.347s]       |                                                     [01;36m[K~^[m[K
+[7.347s]       |                                                      [01;36m[K|[m[K
+[7.347s]       |                                                      [01;36m[Kchar*[m[K
+[7.348s]       |                                                     [32m[K%f[m[K
+[18.909s] [100%] [32m[1mLinking CXX executable translator_node[0m
+[19.628s] [100%] Built target translator_node
+[19.652s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[19.724s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alyazahrarr/tubes_dagoz/build/control
+[19.743s] -- Install configuration: ""
+[19.744s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/lib/control/keyboard_input
+[19.744s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/lib/control/translator_node
+[19.755s] -- Set non-toolchain portion of runtime path of "/home/alyazahrarr/tubes_dagoz/install/control/lib/control/translator_node" to ""
+[19.756s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[19.756s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[19.756s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/ament_prefix_path.sh
+[19.756s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/ament_prefix_path.dsv
+[19.757s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/path.sh
+[19.757s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/environment/path.dsv
+[19.757s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.bash
+[19.757s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.sh
+[19.758s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.zsh
+[19.758s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/local_setup.dsv
+[19.758s] -- Installing: /home/alyazahrarr/tubes_dagoz/install/control/share/control/package.dsv
+[19.759s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/ament_index/resource_index/packages/control
+[19.759s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.759s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/cmake/controlConfig.cmake
+[19.760s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/cmake/controlConfig-version.cmake
+[19.760s] -- Up-to-date: /home/alyazahrarr/tubes_dagoz/install/control/share/control/package.xml
+[19.763s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alyazahrarr/tubes_dagoz/build/control

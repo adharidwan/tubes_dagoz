@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:3[m[K:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In lambda function:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:13:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   13 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Linear x: '%s'"[m[K, [32m[Kmsg.linear.x[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~[m[K
+      |                                                                      [32m[K|[m[K
+      |                                                                      [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:13:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   13 |         RCLCPP_INFO(this->get_logger(), "Linear x: '[01;36m[K%s[m[K'", msg.linear.x);
+      |                                                     [01;36m[K~^[m[K
+      |                                                      [01;36m[K|[m[K
+      |                                                      [01;36m[Kchar*[m[K
+      |                                                     [32m[K%f[m[K
