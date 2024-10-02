@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="control" type="control_node" name="control_node" output="screen">
+        <param name="param_compute_period" value="50"/>
+    </node>
+</launch>
