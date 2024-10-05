@@ -1,0 +1,2 @@
+Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2

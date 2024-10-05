@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[0.288s] [ 50%] Built target goalkeeper_arm_publisher
+[0.289s] [100%] Built target goalkeeper_arm_subscriber
+[0.315s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[0.395s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bill_2247/expander/build/expander_controller
+[0.415s] -- Install configuration: ""
+[0.418s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/lib/expander_controller/goalkeeper_arm_publisher
+[0.419s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/lib/expander_controller/goalkeeper_arm_subscriber
+[0.420s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/package_run_dependencies/expander_controller
+[0.420s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/parent_prefix_path/expander_controller
+[0.421s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.sh
+[0.421s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.dsv
+[0.421s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.sh
+[0.421s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.dsv
+[0.422s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.bash
+[0.422s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.sh
+[0.422s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.zsh
+[0.423s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.dsv
+[0.423s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.dsv
+[0.423s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/packages/expander_controller
+[0.424s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig.cmake
+[0.424s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig-version.cmake
+[0.426s] -- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.xml
+[0.428s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bill_2247/expander/build/expander_controller

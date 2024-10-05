@@ -1,0 +1,20 @@
+[ 50%] Built target goalkeeper_arm_publisher
+[100%] Built target goalkeeper_arm_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/lib/expander_controller/goalkeeper_arm_publisher
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/lib/expander_controller/goalkeeper_arm_subscriber
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/package_run_dependencies/expander_controller
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/parent_prefix_path/expander_controller
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.sh
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.dsv
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.bash
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.sh
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.zsh
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.dsv
+-- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.dsv
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/packages/expander_controller
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig.cmake
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig-version.cmake
+-- Up-to-date: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.xml

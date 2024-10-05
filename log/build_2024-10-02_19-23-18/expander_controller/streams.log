@@ -1,0 +1,9 @@
+[0.077s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[0.416s] [ 33%] [32m[1mLinking CXX executable expander_controller[0m
+[0.660s] /usr/bin/ld: CMakeFiles/expander_controller.dir/src/goalkeeper_arm_subscriber.cpp.o: in function `main':
+[0.665s] goalkeeper_arm_subscriber.cpp:(.text+0x69): multiple definition of `main'; CMakeFiles/expander_controller.dir/src/goalkeeper_arm_publisher.cpp.o:goalkeeper_arm_publisher.cpp:(.text+0x69): first defined here
+[2.612s] collect2: error: ld returned 1 exit status
+[2.649s] gmake[2]: *** [CMakeFiles/expander_controller.dir/build.make:187: expander_controller] Error 1
+[2.649s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/expander_controller.dir/all] Error 2
+[2.658s] gmake: *** [Makefile:146: all] Error 2
+[2.676s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2

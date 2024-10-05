@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000990] (-) JobUnselected: {'identifier': 'can_msgs'}
+[0.001319] (-) JobUnselected: {'identifier': 'expander_controller'}
+[0.001564] (-) JobUnselected: {'identifier': 'ros2_socketcan'}
+[0.001950] (-) JobUnselected: {'identifier': 'ros2_socketcan_msgs'}
+[0.003769] (-) EventReactorShutdown: {}

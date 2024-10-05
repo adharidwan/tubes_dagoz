@@ -1,0 +1,7 @@
+[ 33%] [32m[1mLinking CXX executable expander_controller[0m
+/usr/bin/ld: CMakeFiles/expander_controller.dir/src/goalkeeper_arm_subscriber.cpp.o: in function `main':
+goalkeeper_arm_subscriber.cpp:(.text+0x69): multiple definition of `main'; CMakeFiles/expander_controller.dir/src/goalkeeper_arm_publisher.cpp.o:goalkeeper_arm_publisher.cpp:(.text+0x69): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/expander_controller.dir/build.make:187: expander_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/expander_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

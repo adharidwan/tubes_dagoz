@@ -1,0 +1,32 @@
+[0.035s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[0.110s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.862s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.929s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.033s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.195s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.508s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.550s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.819s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.820s] -- Configured cppcheck include dirs: 
+[1.820s] -- Configured cppcheck exclude dirs and/or files: 
+[1.820s] -- Added test 'lint_cmake' to check CMake code style
+[1.825s] -- Added test 'uncrustify' to check C / C++ code style
+[1.825s] -- Configured uncrustify additional arguments: 
+[1.826s] -- Added test 'xmllint' to check XML markup files
+[1.826s] -- Configuring done (1.7s)
+[1.866s] -- Generating done (0.0s)
+[1.871s] -- Build files have been written to: /home/bill_2247/expander/build/expander_controller
+[2.010s] [ 25%] [32mBuilding CXX object CMakeFiles/goalkeeper_arm_subscriber.dir/src/goalkeeper_arm_subscriber.cpp.o[0m
+[2.086s] [ 50%] [32mBuilding CXX object CMakeFiles/goalkeeper_arm_publisher.dir/src/goalkeeper_arm_publisher.cpp.o[0m
+[47.732s] [ 75%] [32m[1mLinking CXX executable goalkeeper_arm_publisher[0m
+[50.790s] [ 75%] Built target goalkeeper_arm_publisher
+[71.596s] [100%] [32m[1mLinking CXX executable goalkeeper_arm_subscriber[0m
+[72.455s] gmake[2]: *** Deleting file 'goalkeeper_arm_subscriber'
+[72.470s] gmake[2]: *** [CMakeFiles/goalkeeper_arm_subscriber.dir/build.make:171: goalkeeper_arm_subscriber] Interrupt
+[72.470s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/goalkeeper_arm_subscriber.dir/all] Interrupt
+[72.471s] gmake: *** [Makefile:146: all] Interrupt
+[72.494s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2

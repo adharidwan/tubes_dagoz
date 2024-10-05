@@ -1,0 +1,40 @@
+[0.032s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[0.083s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.730s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.789s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.818s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.040s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.043s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.340s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.593s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.595s] -- Configured cppcheck include dirs: 
+[1.595s] -- Configured cppcheck exclude dirs and/or files: 
+[1.596s] -- Added test 'lint_cmake' to check CMake code style
+[1.598s] -- Added test 'uncrustify' to check C / C++ code style
+[1.598s] -- Configured uncrustify additional arguments: 
+[1.600s] -- Added test 'xmllint' to check XML markup files
+[1.600s] -- Configuring done (1.5s)
+[1.614s] -- Generating done (0.0s)
+[1.625s] -- Build files have been written to: /home/bill_2247/expander/build/expander_controller
+[1.680s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bill_2247/expander/build/expander_controller -- -j2 -l2
+[1.746s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bill_2247/expander/build/expander_controller
+[1.763s] -- Install configuration: ""
+[1.766s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/package_run_dependencies/expander_controller
+[1.767s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/parent_prefix_path/expander_controller
+[1.769s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.sh
+[1.769s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/ament_prefix_path.dsv
+[1.771s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.sh
+[1.773s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/environment/path.dsv
+[1.773s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.bash
+[1.773s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.sh
+[1.773s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.zsh
+[1.773s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/local_setup.dsv
+[1.774s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.dsv
+[1.774s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/ament_index/resource_index/packages/expander_controller
+[1.774s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig.cmake
+[1.774s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/cmake/expander_controllerConfig-version.cmake
+[1.775s] -- Installing: /home/bill_2247/expander/install/expander_controller/share/expander_controller/package.xml
+[1.775s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bill_2247/expander/build/expander_controller

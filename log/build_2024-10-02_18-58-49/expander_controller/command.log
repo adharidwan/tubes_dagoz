@@ -1,0 +1,2 @@
+Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bill_2247/expander/src/expander_controller -DCMAKE_INSTALL_PREFIX=/home/bill_2247/expander/install/expander_controller
+Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bill_2247/expander/src/expander_controller -DCMAKE_INSTALL_PREFIX=/home/bill_2247/expander/install/expander_controller

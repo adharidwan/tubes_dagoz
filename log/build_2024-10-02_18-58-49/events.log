@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.001619] (-) JobUnselected: {'identifier': 'can_msgs'}
+[0.001714] (-) JobUnselected: {'identifier': 'ros2_socketcan'}
+[0.001758] (-) JobUnselected: {'identifier': 'ros2_socketcan_msgs'}
+[0.001803] (expander_controller) JobQueued: {'identifier': 'expander_controller', 'dependencies': OrderedDict()}
+[0.001852] (expander_controller) JobStarted: {'identifier': 'expander_controller'}
+[0.028777] (expander_controller) JobProgress: {'identifier': 'expander_controller', 'progress': 'cmake'}
+[0.029426] (expander_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/bill_2247/expander/src/expander_controller', '-DCMAKE_INSTALL_PREFIX=/home/bill_2247/expander/install/expander_controller'], 'cwd': '/home/bill_2247/expander/build/expander_controller', 'env': OrderedDict({'USER': 'bill_2247', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bill_2247/expander/install/ros2_socketcan/lib:/home/bill_2247/expander/install/ros2_socketcan_msgs/lib:/home/bill_2247/expander/install/can_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/bill_2247', 'HOME': '/home/bill_2247', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/bill_2247/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/bill_2247/expander/install', 'LOGNAME': 'bill_2247', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'bill_2247', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bill2247:@/tmp/.ICE-unix/1850,unix/bill2247:/tmp/.ICE-unix/1850', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a3dc2bd8_440c_4eaa_a165_7eb1ccd1b3df', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.326', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5COVU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bill_2247/expander/install/expander_controller:/home/bill_2247/expander/install/ros2_socketcan:/home/bill_2247/expander/install/ros2_socketcan_msgs:/home/bill_2247/expander/install/can_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/bill_2247/expander/build/expander_controller', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bill_2247/expander/install/ros2_socketcan_msgs/lib/python3.12/site-packages:/home/bill_2247/expander/install/can_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/bill_2247/expander/install/expander_controller:/home/bill_2247/expander/install/ros2_socketcan:/home/bill_2247/expander/install/ros2_socketcan_msgs:/home/bill_2247/expander/install/can_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099553] (-) TimerEvent: {}
+[0.159548] (expander_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.199713] (-) TimerEvent: {}
+[0.300955] (-) TimerEvent: {}
+[0.303953] (expander_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.361181] (expander_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401444] (-) TimerEvent: {}
+[0.503392] (-) TimerEvent: {}
+[0.597883] (expander_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.603505] (-) TimerEvent: {}
+[0.626665] (expander_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.627419] (expander_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.628485] (expander_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.646292] (expander_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703680] (-) TimerEvent: {}
+[0.805338] (-) TimerEvent: {}
+[0.887470] (expander_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.905475] (-) TimerEvent: {}
+[0.924902] (expander_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.926132] (expander_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.927629] (expander_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.933532] (expander_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.006319] (-) TimerEvent: {}
+[1.106793] (-) TimerEvent: {}
+[1.207279] (-) TimerEvent: {}
+[1.307697] (-) TimerEvent: {}
+[1.326840] (expander_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.407875] (-) TimerEvent: {}
+[1.508333] (-) TimerEvent: {}
+[1.594722] (expander_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.608477] (-) TimerEvent: {}
+[1.674007] (expander_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.702061] (expander_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.708616] (-) TimerEvent: {}
+[1.747351] (expander_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.785010] (expander_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.808765] (-) TimerEvent: {}
+[1.909200] (-) TimerEvent: {}
+[1.957664] (expander_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.963427] (expander_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.009371] (-) TimerEvent: {}
+[2.109781] (-) TimerEvent: {}
+[2.135280] (expander_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.174192] (expander_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.209987] (-) TimerEvent: {}
+[2.228873] (expander_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.310150] (-) TimerEvent: {}
+[2.390692] (expander_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.410292] (-) TimerEvent: {}
+[2.510677] (-) TimerEvent: {}
+[2.611156] (-) TimerEvent: {}
+[2.670391] (expander_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.670890] (expander_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.671146] (expander_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.672875] (expander_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.675381] (expander_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.675819] (expander_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.677159] (expander_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.684805] (expander_controller) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.711308] (-) TimerEvent: {}
+[2.730942] (expander_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.731441] (expander_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.731719] (expander_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.732205] (expander_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):\n'}
+[2.732623] (expander_controller) StderrLine: {'line': b'  add_test given test NAME "cppcheck" which already exists in this directory.\n'}
+[2.732858] (expander_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.733064] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cppcheck.cmake:66 (ament_add_test)\n'}
+[2.733362] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:87 (ament_cppcheck)\n'}
+[2.733585] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.734085] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.734408] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.734629] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.734864] (expander_controller) StderrLine: {'line': b'  CMakeLists.txt:52 (ament_package)\n'}
+[2.735063] (expander_controller) StderrLine: {'line': b'\n'}
+[2.735290] (expander_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.735499] (expander_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.735869] (expander_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):\n'}
+[2.736091] (expander_controller) StderrLine: {'line': b'  add_test given test NAME "lint_cmake" which already exists in this\n'}
+[2.736334] (expander_controller) StderrLine: {'line': b'  directory.\n'}
+[2.736851] (expander_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.737211] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake:47 (ament_add_test)\n'}
+[2.737512] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:21 (ament_lint_cmake)\n'}
+[2.737957] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.738218] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.740065] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.740338] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.740565] (expander_controller) StderrLine: {'line': b'  CMakeLists.txt:52 (ament_package)\n'}
+[2.740758] (expander_controller) StderrLine: {'line': b'\n'}
+[2.740941] (expander_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.741125] (expander_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.744569] (expander_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.744795] (expander_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):\n'}
+[2.745039] (expander_controller) StderrLine: {'line': b'  add_test given test NAME "uncrustify" which already exists in this\n'}
+[2.745247] (expander_controller) StderrLine: {'line': b'  directory.\n'}
+[2.745463] (expander_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.745655] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake:85 (ament_add_test)\n'}
+[2.745852] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:43 (ament_uncrustify)\n'}
+[2.746055] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.746270] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.746514] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.746712] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.746901] (expander_controller) StderrLine: {'line': b'  CMakeLists.txt:52 (ament_package)\n'}
+[2.747111] (expander_controller) StderrLine: {'line': b'\n'}
+[2.747342] (expander_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.747562] (expander_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.747804] (expander_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):\n'}
+[2.748000] (expander_controller) StderrLine: {'line': b'  add_test given test NAME "xmllint" which already exists in this directory.\n'}
+[2.748220] (expander_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.748500] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_xmllint.cmake:50 (ament_add_test)\n'}
+[2.748679] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake:18 (ament_xmllint)\n'}
+[2.748851] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.749029] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.749200] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.749435] (expander_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.749618] (expander_controller) StderrLine: {'line': b'  CMakeLists.txt:52 (ament_package)\n'}
+[2.749787] (expander_controller) StderrLine: {'line': b'\n'}
+[2.749954] (expander_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.750127] (expander_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.762408] (expander_controller) CommandEnded: {'returncode': 1}
+[2.806029] (expander_controller) JobEnded: {'identifier': 'expander_controller', 'rc': 1}
+[2.811628] (-) TimerEvent: {}
+[2.817356] (-) EventReactorShutdown: {}

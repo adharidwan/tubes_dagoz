@@ -1,0 +1,93 @@
+[0.031s] Invoking command in '/home/bill_2247/expander/build/expander_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bill_2247/expander/src/expander_controller -DCMAKE_INSTALL_PREFIX=/home/bill_2247/expander/install/expander_controller
+[0.158s] -- The C compiler identification is GNU 13.2.0
+[0.304s] -- The CXX compiler identification is GNU 13.2.0
+[0.360s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.626s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.645s] -- Detecting CXX compiler ABI info
+[0.886s] -- Detecting CXX compiler ABI info - done
+[0.924s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.926s] -- Detecting CXX compile features
+[0.926s] -- Detecting CXX compile features - done
+[0.932s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.325s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.593s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.672s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.701s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.956s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.962s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.134s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.173s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.389s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.669s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.669s] -- Configured cppcheck include dirs: 
+[2.669s] -- Configured cppcheck exclude dirs and/or files: 
+[2.671s] -- Added test 'lint_cmake' to check CMake code style
+[2.674s] -- Added test 'uncrustify' to check C / C++ code style
+[2.674s] -- Configured uncrustify additional arguments: 
+[2.676s] -- Added test 'xmllint' to check XML markup files
+[2.683s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.729s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.730s] -- Configured cppcheck include dirs: 
+[2.730s] -- Configured cppcheck exclude dirs and/or files: 
+[2.731s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[2.731s]   add_test given test NAME "cppcheck" which already exists in this directory.
+[2.731s] Call Stack (most recent call first):
+[2.731s]   /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cppcheck.cmake:66 (ament_add_test)
+[2.732s]   /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:87 (ament_cppcheck)
+[2.732s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.732s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.733s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.733s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.733s]   CMakeLists.txt:52 (ament_package)
+[2.733s] 
+[2.734s] [0m
+[2.734s] -- Added test 'lint_cmake' to check CMake code style
+[2.734s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[2.734s]   add_test given test NAME "lint_cmake" which already exists in this
+[2.735s]   directory.
+[2.735s] Call Stack (most recent call first):
+[2.736s]   /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake:47 (ament_add_test)
+[2.736s]   /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:21 (ament_lint_cmake)
+[2.736s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.738s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.738s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.739s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.739s]   CMakeLists.txt:52 (ament_package)
+[2.739s] 
+[2.739s] [0m
+[2.743s] -- Added test 'uncrustify' to check C / C++ code style
+[2.743s] -- Configured uncrustify additional arguments: 
+[2.743s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[2.743s]   add_test given test NAME "uncrustify" which already exists in this
+[2.744s]   directory.
+[2.744s] Call Stack (most recent call first):
+[2.744s]   /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake:85 (ament_add_test)
+[2.744s]   /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:43 (ament_uncrustify)
+[2.744s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.745s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.745s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.745s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.745s]   CMakeLists.txt:52 (ament_package)
+[2.745s] 
+[2.746s] [0m
+[2.746s] -- Added test 'xmllint' to check XML markup files
+[2.746s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[2.746s]   add_test given test NAME "xmllint" which already exists in this directory.
+[2.747s] Call Stack (most recent call first):
+[2.747s]   /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_xmllint.cmake:50 (ament_add_test)
+[2.747s]   /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake:18 (ament_xmllint)
+[2.747s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.747s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.748s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.748s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.748s]   CMakeLists.txt:52 (ament_package)
+[2.748s] 
+[2.748s] [0m
+[2.748s] -- Configuring incomplete, errors occurred!
+[2.761s] Invoked command in '/home/bill_2247/expander/build/expander_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bill_2247/expander/src/expander_controller -DCMAKE_INSTALL_PREFIX=/home/bill_2247/expander/install/expander_controller

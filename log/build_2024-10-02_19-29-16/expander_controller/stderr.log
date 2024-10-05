@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'goalkeeper_arm_subscriber'
+gmake[2]: *** [CMakeFiles/goalkeeper_arm_subscriber.dir/build.make:171: goalkeeper_arm_subscriber] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/goalkeeper_arm_subscriber.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
