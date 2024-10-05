@@ -11,7 +11,7 @@ public:
             "goalkeeper/extend_arm", 10,
             std::bind(&GoalkeeperArmMover::move_arm, this, std::placeholders::_1));
     }
-
+ 
 private:
     void move_arm(const std_msgs::msg::String::SharedPtr msg)
     {
