@@ -1,0 +1,11 @@
+{
+  "package_name": "ros2_socketcan_msgs",
+  "output_dir": "/home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_generator_type_description/ros2_socketcan_msgs",
+  "idl_tuples": [
+    "/home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_adapter/ros2_socketcan_msgs:msg/FdFrame.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

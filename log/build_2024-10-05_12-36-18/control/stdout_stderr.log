@@ -1,0 +1,45 @@
+[  2%] Built target control__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[  7%] Built target ament_cmake_python_copy_control
+[ 10%] Built target keyboard_input
+[ 13%] Built target control__cpp
+[ 26%] Built target control__rosidl_generator_c
+[ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 42%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+running egg_info
+writing control.egg-info/PKG-INFO
+writing dependency_links to control.egg-info/dependency_links.txt
+writing top-level names to control.egg-info/top_level.txt
+[ 44%] [32mBuilding CXX object CMakeFiles/control__rosidl_typesupport_c.dir/rosidl_typesupport_c/control/msg/frame__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control/msg/frame__type_support.cpp.o[0m
+reading manifest file 'control.egg-info/SOURCES.txt'
+writing manifest file 'control.egg-info/SOURCES.txt'
+[ 50%] [32mBuilding C object CMakeFiles/control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control/msg/detail/frame__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control/msg/detail/frame__type_support.cpp.o[0m
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[K../../ros2_socketcan/can_msgs/msg/Frame.hpp: No such file or directory
+    3 | #include [01;31m[K"../../ros2_socketcan/can_msgs/msg/Frame.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/translator_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 55%] [32m[1mLinking CXX shared library libcontrol__rosidl_typesupport_c.so[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control/msg/detail/frame__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control/msg/detail/dds_fastrtps/frame__type_support.cpp.o[0m
+[ 60%] Built target ament_cmake_python_build_control_egg
+[ 63%] [32m[1mLinking C shared library libcontrol__rosidl_typesupport_introspection_c.so[0m
+[ 63%] Built target control__rosidl_typesupport_c
+[ 63%] Built target control__rosidl_typesupport_introspection_c
+[ 65%] [32m[1mLinking CXX shared library libcontrol__rosidl_typesupport_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libcontrol__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] Built target control__rosidl_typesupport_cpp
+[ 68%] Built target control__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libcontrol__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] [32m[1mLinking CXX shared library libcontrol__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 73%] Built target control__rosidl_typesupport_fastrtps_c
+[ 73%] Built target control__rosidl_typesupport_fastrtps_cpp
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+{
+  "package_name": "msgs",
+  "output_dir": "/home/adha/belajar/ws1/build/msgs/rosidl_generator_type_description/msgs",
+  "idl_tuples": [
+    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
+  ]
+}

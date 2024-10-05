@@ -1,0 +1,8 @@
+setup.py
+msgs/__init__.py
+msgs.egg-info/PKG-INFO
+msgs.egg-info/SOURCES.txt
+msgs.egg-info/dependency_links.txt
+msgs.egg-info/top_level.txt
+msgs/msg/__init__.py
+msgs/msg/_hardware_command.py

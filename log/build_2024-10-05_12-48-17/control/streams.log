@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/can_msgs:/home/adha/belajar/ws1/install/control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.035s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.107s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.125s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.130s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.290s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.312s] -- Found msgs: 0.0.0 (/home/adha/belajar/ws1/install/msgs/share/msgs/cmake)
+[0.318s] -- Found ros2_socketcan: 1.3.0 (/home/adha/belajar/ws1/install/ros2_socketcan/share/ros2_socketcan/cmake)
+[0.382s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.388s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.514s] Error parsing '/home/adha/belajar/ws1/src/control/package.xml':
+[1.230s] Traceback (most recent call last):
+[1.230s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.230s]     root = dom.parseString(data)
+[1.230s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.231s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[1.231s]     return expatbuilder.parseString(string)
+[1.231s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.231s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.231s]     return builder.parseString(string)
+[1.231s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.231s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.231s]     parser.Parse(string, True)
+[1.231s] xml.parsers.expat.ExpatError: mismatched tag: line 24, column 2
+[1.231s] 
+[1.231s] During handling of the above exception, another exception occurred:
+[1.231s] 
+[1.231s] Traceback (most recent call last):
+[1.231s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.231s]     main()
+[1.231s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.231s]     raise e
+[1.231s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.231s]     package = parse_package_string(
+[1.231s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.231s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.232s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.232s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/adha/belajar/ws1/src/control/package.xml':
+[1.232s] The manifest contains invalid XML:
+[1.232s] mismatched tag: line 24, column 2
+[1.258s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.258s]   execute_process(/usr/bin/python3
+[1.258s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.258s]   /home/adha/belajar/ws1/src/control/package.xml
+[1.258s]   /home/adha/belajar/ws1/build/control/ament_cmake_core/package.cmake)
+[1.258s]   returned error code 1
+[1.258s] Call Stack (most recent call first):
+[1.259s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.259s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.259s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[1.259s] 
+[1.259s] [0m
+[1.259s] -- Configuring incomplete, errors occurred!
+[1.265s] gmake: *** [Makefile:897: cmake_check_build_system] Error 1
+[1.267s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '2': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/can_msgs:/home/adha/belajar/ws1/install/control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12

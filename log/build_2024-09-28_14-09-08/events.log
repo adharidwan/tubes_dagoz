@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (-) JobUnselected: {'identifier': 'can_msgs'}
+[0.000590] (-) JobUnselected: {'identifier': 'control'}
+[0.000871] (-) JobUnselected: {'identifier': 'msgs'}
+[0.000898] (-) JobUnselected: {'identifier': 'ros2_socketcan'}
+[0.000915] (-) JobUnselected: {'identifier': 'ros2_socketcan_msgs'}
+[0.000930] (-) EventReactorShutdown: {}

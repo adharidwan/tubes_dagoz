@@ -1,0 +1,6 @@
+{
+  "package_name": "control",
+  "non_idl_tuples": [
+    "/home/adha/belajar/ws1/src/control:../ros2_socketcan/can_msgs/msg/Frame.msg"
+  ]
+}

@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/adha/belajar/ws1/build/control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.049s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.221s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.483s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.523s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.523s]   By not providing "Findsocketcan_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.523s]   project has asked CMake to find a package configuration file provided by
+[0.523s]   "socketcan_msgs", but CMake did not find one.
+[0.523s] 
+[0.523s]   Could not find a package configuration file provided by "socketcan_msgs"
+[0.523s]   with any of the following names:
+[0.523s] 
+[0.523s]     socketcan_msgsConfig.cmake
+[0.523s]     socketcan_msgs-config.cmake
+[0.523s] 
+[0.524s]   Add the installation prefix of "socketcan_msgs" to CMAKE_PREFIX_PATH or set
+[0.524s]   "socketcan_msgs_DIR" to a directory containing one of the above files.  If
+[0.524s]   "socketcan_msgs" provides a separate development package or SDK, be sure it
+[0.524s]   has been installed.
+[0.524s] 
+[0.524s] [0m
+[0.524s] -- Configuring incomplete, errors occurred!
+[0.533s] gmake: *** [Makefile:897: cmake_check_build_system] Error 1
+[0.535s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12

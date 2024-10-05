@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/control:/home/adha/belajar/ws1/install/can_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/adha/belajar/ws1/install/msgs/lib:/home/adha/belajar/ws1/install/ros2_socketcan/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/adha/belajar/ws1/install/msgs/lib/python3.12/site-packages:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib/python3.12/site-packages:/home/adha/belajar/ws1/install/can_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.059s] [  2%] Built target control__rosidl_generator_type_description
+[0.064s] [ 10%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[0.064s] [ 10%] Built target keyboard_input
+[0.065s] [ 10%] Built target ament_cmake_python_copy_control
+[0.079s] [ 13%] Built target control__cpp
+[0.083s] [ 26%] Built target control__rosidl_generator_c
+[0.107s] [ 42%] Built target control__rosidl_typesupport_introspection_c
+[0.107s] [ 42%] Built target control__rosidl_typesupport_c
+[0.107s] [ 50%] Built target control__rosidl_typesupport_cpp
+[0.107s] [ 63%] Built target control__rosidl_typesupport_fastrtps_c
+[0.107s] [ 65%] Built target control__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 73%] Built target control__rosidl_typesupport_introspection_cpp
+[0.127s] [ 73%] Built target control
+[0.145s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.208s] running egg_info
+[0.223s] writing control.egg-info/PKG-INFO
+[0.223s] writing dependency_links to control.egg-info/dependency_links.txt
+[0.223s] writing top-level names to control.egg-info/top_level.txt
+[0.252s] reading manifest file 'control.egg-info/SOURCES.txt'
+[0.253s] writing manifest file 'control.egg-info/SOURCES.txt'
+[0.278s] [ 76%] Built target ament_cmake_python_build_control_egg
+[0.331s] [01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[K/../../ros2_socketcan/can_msgs/msg/Frame.hpp: No such file or directory
+[0.332s]     3 | #include [01;31m[K"/../../ros2_socketcan/can_msgs/msg/Frame.hpp"[m[K
+[0.332s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.332s] compilation terminated.
+[0.335s] gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+[0.336s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/translator_node.dir/all] Error 2
+[0.336s] gmake[1]: *** Waiting for unfinished jobs....
+[0.376s] [ 76%] Built target control__py
+[0.378s] gmake: *** [Makefile:146: all] Error 2
+[0.380s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '2': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/control:/home/adha/belajar/ws1/install/can_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/adha/belajar/ws1/install/msgs/lib:/home/adha/belajar/ws1/install/ros2_socketcan/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/adha/belajar/ws1/install/msgs/lib/python3.12/site-packages:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib/python3.12/site-packages:/home/adha/belajar/ws1/install/can_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12

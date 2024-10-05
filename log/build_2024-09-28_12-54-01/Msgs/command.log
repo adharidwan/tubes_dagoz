@@ -1,0 +1,2 @@
+Invoking command in '/home/adha/belajar/ws1/build/Msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adha/belajar/ws1/src/Msgs -DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/Msgs
+Invoked command in '/home/adha/belajar/ws1/build/Msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adha/belajar/ws1/src/Msgs -DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/Msgs

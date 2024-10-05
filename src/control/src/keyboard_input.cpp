@@ -18,7 +18,7 @@ public:
         keypad(stdscr, TRUE); 
 
         velocity_msg_.linear.x = 0.0;
-        velocity_msg_.angular.z = 0.0;
+        velocity_msg_.linear.y = 0.0;
 
         control_thread_ = std::thread(&KeyboardInputNode::controlLoop, this);
     }
@@ -42,7 +42,7 @@ private:
             switch (ch)
             {
                 case 'w':
-                    updateVelocity(1.0, 0.0);
+                    updateVelocity(1.0, 0.0);   
                     break;
                 case 's':
                     updateVelocity(-1.0, 0.0);
@@ -52,6 +52,10 @@ private:
                     break;
                 case 'd':
                     updateVelocity(0.0, -1.0);
+                    break;
+                case 'r':
+                    updateVelocity(0.0, 1.0);
+                    // tuning untuk satu putaran berapa detik
                     break;
                 case 'q':
                     RCLCPP_INFO(this->get_logger(), "Exiting...");
@@ -67,23 +71,23 @@ private:
         }
     }
 
-    void updateVelocity(double linear, double angular)
+    void updateVelocity(double linearx, double lineary)
     {
         std::lock_guard<std::mutex> lock(mutex_);
-        velocity_msg_.linear.x = linear;
-        velocity_msg_.angular.z = angular;
+        velocity_msg_.linear.x = linearx;
+        velocity_msg_.linear.y = lineary;
         publisher_->publish(velocity_msg_);
-        RCLCPP_INFO(this->get_logger(), "Published linear velocity: %.2f, angular velocity: %.2f",
-                    velocity_msg_.linear.x, velocity_msg_.angular.z);
+        RCLCPP_INFO(this->get_logger(), "Published linear velocity x: %.2f, linear velocity y: %.2f",
+                    velocity_msg_.linear.x, velocity_msg_.linear.y);
     }
 
     void resetVelocity()
     {
         std::lock_guard<std::mutex> lock(mutex_);
         velocity_msg_.linear.x = 0.0;
-        velocity_msg_.angular.z = 0.0;
+        velocity_msg_.linear.y = 0.0;
         publisher_->publish(velocity_msg_);
-        RCLCPP_INFO(this->get_logger(), "Resetted back after 1s = linear velocity : %.2f, angular velocity: %.2f",velocity_msg_.linear.x, velocity_msg_.angular.z);
+        RCLCPP_INFO(this->get_logger(), "Resetted back after 1s = linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
     }
 
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;

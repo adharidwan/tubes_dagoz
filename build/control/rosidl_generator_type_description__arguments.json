@@ -1,0 +1,11 @@
+{
+  "package_name": "control",
+  "output_dir": "/home/adha/belajar/ws1/build/control/rosidl_generator_type_description/control",
+  "idl_tuples": [
+    "/home/adha/belajar/ws1/build/control/rosidl_adapter/control:msg/Frame.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

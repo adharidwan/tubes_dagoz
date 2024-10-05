@@ -1,0 +1,11 @@
+{
+  "package_name": "can_msgs",
+  "output_dir": "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_type_description/can_msgs",
+  "idl_tuples": [
+    "/home/adha/belajar/ws1/build/can_msgs/rosidl_adapter/can_msgs:msg/Frame.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

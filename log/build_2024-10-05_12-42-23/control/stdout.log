@@ -1,0 +1,31 @@
+[  2%] Built target control__rosidl_generator_type_description
+[ 10%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[ 10%] Built target keyboard_input
+[ 10%] Built target ament_cmake_python_copy_control
+[ 18%] Built target control__cpp
+[ 26%] Built target control__rosidl_generator_c
+[ 34%] Built target control__rosidl_typesupport_cpp
+[ 57%] Built target control__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target control__rosidl_typesupport_fastrtps_c
+[ 57%] Built target control__rosidl_typesupport_introspection_cpp
+[ 73%] Built target control__rosidl_typesupport_c
+[ 73%] Built target control__rosidl_typesupport_introspection_c
+[ 73%] Built target control
+[ 76%] Built target control__py
+[ 81%] Built target control__rosidl_generator_py
+[ 86%] [32mBuilding C object CMakeFiles/control_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/control/_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/control_s__rosidl_typesupport_c.dir/rosidl_generator_py/control/_control_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/control_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/control/_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+running egg_info
+writing control.egg-info/PKG-INFO
+writing dependency_links to control.egg-info/dependency_links.txt
+writing top-level names to control.egg-info/top_level.txt
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/control/control_s__rosidl_typesupport_c.so[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/control/control_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/control/control_s__rosidl_typesupport_introspection_c.so[0m
+reading manifest file 'control.egg-info/SOURCES.txt'
+writing manifest file 'control.egg-info/SOURCES.txt'
+[ 97%] Built target control_s__rosidl_typesupport_fastrtps_c
+[ 97%] Built target control_s__rosidl_typesupport_c
+[ 97%] Built target control_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ament_cmake_python_build_control_egg

@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000526] (-) JobUnselected: {'identifier': 'can_msgs'}
+[0.000902] (-) JobUnselected: {'identifier': 'control'}
+[0.000955] (-) JobUnselected: {'identifier': 'ros2_socketcan'}
+[0.001006] (-) JobUnselected: {'identifier': 'ros2_socketcan_msgs'}
+[0.001037] (Msgs) JobQueued: {'identifier': 'Msgs', 'dependencies': OrderedDict()}
+[0.001078] (Msgs) JobStarted: {'identifier': 'Msgs'}
+[0.013155] (Msgs) JobProgress: {'identifier': 'Msgs', 'progress': 'cmake'}
+[0.013489] (Msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/adha/belajar/ws1/src/Msgs', '-DCMAKE_INSTALL_PREFIX=/home/adha/belajar/ws1/install/Msgs'], 'cwd': '/home/adha/belajar/ws1/build/Msgs', 'env': OrderedDict({'USER': 'adha', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adha/belajar/ws1/install/ros2_socketcan/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adha', 'OLDPWD': '/home/adha/belajar/ws1/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/adha/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3135', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/adha/belajar/ws1/install', 'LOGNAME': 'adha', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'adha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adha-LOQ-15APH8:@/tmp/.ICE-unix/2939,unix/adha-LOQ-15APH8:/tmp/.ICE-unix/2939', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a492452_124a_42a3_b3c6_c81255cf3513', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.95', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/control:/home/adha/belajar/ws1/install/can_msgs:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/adha/belajar/ws1/build/Msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib/python3.12/site-packages:/home/adha/belajar/ws1/install/can_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/control:/home/adha/belajar/ws1/install/can_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099701] (-) TimerEvent: {}
+[0.143897] (Msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.200113] (-) TimerEvent: {}
+[0.281877] (Msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.300146] (-) TimerEvent: {}
+[0.313247] (Msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400248] (-) TimerEvent: {}
+[0.440954] (Msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.452834] (Msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.453487] (Msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.454196] (Msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.467101] (Msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500358] (-) TimerEvent: {}
+[0.600623] (-) TimerEvent: {}
+[0.601523] (Msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.611500] (Msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.611843] (Msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.612308] (Msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.619702] (Msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700717] (-) TimerEvent: {}
+[0.778709] (Msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800852] (-) TimerEvent: {}
+[0.901247] (-) TimerEvent: {}
+[0.927772] (Msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.999875] (Msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.001342] (-) TimerEvent: {}
+[1.021963] (Msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.049325] (Msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.080040] (Msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101498] (-) TimerEvent: {}
+[1.132899] (Msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.155612] (Msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.201658] (-) TimerEvent: {}
+[1.302003] (-) TimerEvent: {}
+[1.402343] (-) TimerEvent: {}
+[1.502611] (-) TimerEvent: {}
+[1.565989] (Msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[1.566349] (Msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name Msgs\n'}
+[1.566515] (Msgs) StderrLine: {'line': b'  --arguments-file\n'}
+[1.566748] (Msgs) StderrLine: {'line': b'  /home/adha/belajar/ws1/build/Msgs/rosidl_adapter__arguments__Msgs.json\n'}
+[1.566877] (Msgs) StderrLine: {'line': b'  --output-dir /home/adha/belajar/ws1/build/Msgs/rosidl_adapter/Msgs\n'}
+[1.566993] (Msgs) StderrLine: {'line': b'  --output-file /home/adha/belajar/ws1/build/Msgs/rosidl_adapter/Msgs.idls)\n'}
+[1.567094] (Msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.567161] (Msgs) StderrLine: {'line': b'\n'}
+[1.567227] (Msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.567291] (Msgs) StderrLine: {'line': b'\n'}
+[1.567356] (Msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[1.567421] (Msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[1.567484] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.567551] (Msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.567635] (Msgs) StderrLine: {'line': b'               ^^^^^^\n'}
+[1.567701] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.567769] (Msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.567833] (Msgs) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[1.567897] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.567960] (Msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.568024] (Msgs) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[1.568091] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.568155] (Msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.568217] (Msgs) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.568280] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[1.568342] (Msgs) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.568404] (Msgs) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.568466] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[1.568530] (Msgs) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.568609] (Msgs) StderrLine: {'line': b'                       ^^^^^^^^^\n'}
+[1.568675] (Msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 202, in __init__\n'}
+[1.568737] (Msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.568799] (Msgs) StderrLine: {'line': b'\n'}
+[1.568864] (Msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'Msgs' is an invalid package\n"}
+[1.568929] (Msgs) StderrLine: {'line': b"  name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.569003] (Msgs) StderrLine: {'line': b'\n'}
+[1.569067] (Msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.569136] (Msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[1.569199] (Msgs) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.569260] (Msgs) StderrLine: {'line': b'\n'}
+[1.569322] (Msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.569386] (Msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.577064] (Msgs) CommandEnded: {'returncode': 1}
+[1.602758] (-) TimerEvent: {}
+[1.614173] (Msgs) JobEnded: {'identifier': 'Msgs', 'rc': 1}
+[1.624731] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[ 75%] Built target keyboard_input
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_velocity[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:26:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |         double [01;35m[Klinear_x[m[K = msg->linear.x;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:27:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   27 |         double [01;35m[Kangular_x[m[K = msg->angular.x;
+      |                [01;35m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable translator_node[0m
+[100%] Built target translator_node
+-- Install configuration: ""
+-- Up-to-date: /home/adha/belajar/ws1/install/control/lib/control/keyboard_input
+-- Installing: /home/adha/belajar/ws1/install/control/lib/control/translator_node
+-- Set non-toolchain portion of runtime path of "/home/adha/belajar/ws1/install/control/lib/control/translator_node" to ""
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/local_setup.dsv
+-- Installing: /home/adha/belajar/ws1/install/control/share/control/package.dsv
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/adha/belajar/ws1/install/control/share/control/package.xml
