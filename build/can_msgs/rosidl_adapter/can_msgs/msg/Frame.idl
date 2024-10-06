@@ -6,7 +6,7 @@
 
 module can_msgs {
   module msg {
-    typedef uint8 uint8__8[8];
+    typedef int8 int8__8[8];
     struct Frame {
       std_msgs::msg::Header header;
 
@@ -20,7 +20,7 @@ module can_msgs {
 
       uint8 dlc;
 
-      uint8__8 data;
+      int8__8 data;
     };
   };
 };

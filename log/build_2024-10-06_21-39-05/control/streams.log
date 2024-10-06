@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/adha/belajar/ws1/build/control': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/can_msgs:/home/adha/belajar/ws1/install/control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12
+[0.065s] [ 50%] Built target keyboard_input
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[1.792s] [01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_pwm[m[K(double, double) const[m[K’:
+[1.792s] [01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:42:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct can_msgs::msg::Frame_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klen[m[K’
+[1.792s]    42 |         can_msg.[01;31m[Klen[m[K = 8;
+[1.792s]       |                 [01;31m[K^~~[m[K
+[3.585s] gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+[3.585s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+[3.585s] gmake: *** [Makefile:146: all] Error 2
+[3.588s] Invoked command in '/home/adha/belajar/ws1/build/control' returned '2': CMAKE_PREFIX_PATH=/home/adha/belajar/ws1/install/ros2_socketcan:/home/adha/belajar/ws1/install/ros2_socketcan_msgs:/home/adha/belajar/ws1/install/msgs:/home/adha/belajar/ws1/install/can_msgs:/home/adha/belajar/ws1/install/control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adha/belajar/ws1/build/control -- -j12 -l12

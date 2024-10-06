@@ -17,7 +17,7 @@ module ros2_socketcan_msgs {
 
       uint8 len;
 
-      sequence<uint8, 64> data;
+      sequence<int8, 64> data;
     };
   };
 };

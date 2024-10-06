@@ -1,0 +1,13 @@
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_pwm[m[K(double, double) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:40:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksocketcan_msgs[m[K’ has not been declared
+   40 |         auto can_msg = [01;31m[Ksocketcan_msgs[m[K::msg::FdFrame();
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 |     void twist_to_pwm([01;35m[Kdouble linear_x[m[K, double linear_y) const
+      |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:32:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 |     void twist_to_pwm(double linear_x, [01;35m[Kdouble linear_y[m[K) const
+      |                                        [01;35m[K~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="interface" default="can0" />
+  <arg name="interface" default="vcan0" />
   <arg name="receiver_interval_sec" default="0.01" />
   <arg name="sender_timeout_sec" default="0.01" />
   <arg name="enable_can_fd" default="false" />

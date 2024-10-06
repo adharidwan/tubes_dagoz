@@ -1,6 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
-#include "ros2_socketcan_msgs/msg/fd_frame.hpp"
+#include "can_msgs/msg/frame.hpp"
 
 const int MAX_PWM = 255;
 
@@ -15,7 +15,7 @@ public:
             10,
             std::bind(&VelocitySubscriber::listener_callback, this, std::placeholders::_1));
 
-        can_publisher_ = this->create_publisher<ros2_socketcan_msgs::msg::FdFrame>("to/can", 10);
+        can_publisher_ = this->create_publisher<can_msgs::msg::Frame>("/to_can_bus", 10);
     }
 
 private:
@@ -24,37 +24,36 @@ private:
         double linear_x = msg->linear.x;
         double linear_y = msg->linear.y;
 
-        RCLCPP_INFO(this->get_logger(), "Linear Velocity: %.2f, Angular Velocity: %.2f", linear_x, linear_y);
+        RCLCPP_INFO(this->get_logger(), "Linear Velocity X: %.2f, Linear Velocity Y: %.2f", linear_x, linear_y);
 
-        // twist_to_pwm(linear_x, angular_z);
+        twist_to_pwm(linear_x, linear_y);
     }
 
-    // void twist_to_pwm(double linear_x, double angular_z) const
-    // { 
+    void twist_to_pwm(double linear_x, double linear_y) const
+    { 
 
-    //     //float pwm_motor1 = 
-    //     //float pwm_motor2 = 
-    //     //float pwm_motor3 = 
-    //     //float pwm_motor4 = 
+        float vel_motor1 = linear_x;
+        float vel_motor2 = linear_y;
+        float vel_motor3 = linear_x;
+        float vel_motor4 = linear_y;
 
-    //     auto can_msg = socketcan_msgs::msg::CanMsg();
-    //     // can_msg.id = can id nanti
-    //     can_msg.dlc = 8;    
+        auto can_msg = can_msgs::msg::Frame();
+        can_msg.id = 0x123;
+        can_msg.dlc = 8;    
 
-    //     // can_msg.data[0] = 
-    //     // can_msg.data[1] = 
-    //     // can_msg.data[2] = 
-    //     // can_msg.data[3] = 
-    //     // can_msg.data[4] = 
-    //     // can_msg.data[5] = 
-    //     // can_msg.data[6] = 
-    //     // can_msg.data[7] = 
-
-    //     can_publisher_->publish(can_msg);
-    // }
+        can_msg.data[0] = vel_motor1;
+        can_msg.data[1] = vel_motor1;
+        can_msg.data[2] = vel_motor2;
+        can_msg.data[3] = vel_motor2;
+        can_msg.data[4] = vel_motor3;
+        can_msg.data[5] = vel_motor3;
+        can_msg.data[6] = vel_motor4;
+        can_msg.data[7] = vel_motor4;
+        can_publisher_->publish(can_msg);
+    }
 
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;
-    rclcpp::Publisher<ros2_socketcan_msgs::msg::FdFrame>::SharedPtr can_publisher_;
+    rclcpp::Publisher<can_msgs::msg::Frame>::SharedPtr can_publisher_;
 };
 
 int main(int argc, char * argv[])

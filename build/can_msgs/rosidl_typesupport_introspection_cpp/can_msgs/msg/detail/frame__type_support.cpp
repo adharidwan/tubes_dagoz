@@ -47,32 +47,32 @@ size_t size_function__Frame__data(const void * untyped_member)
 const void * get_const_function__Frame__data(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<uint8_t, 8> *>(untyped_member);
+    *reinterpret_cast<const std::array<int8_t, 8> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__Frame__data(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<uint8_t, 8> *>(untyped_member);
+    *reinterpret_cast<std::array<int8_t, 8> *>(untyped_member);
   return &member[index];
 }
 
 void fetch_function__Frame__data(
   const void * untyped_member, size_t index, void * untyped_value)
 {
-  const auto & item = *reinterpret_cast<const uint8_t *>(
+  const auto & item = *reinterpret_cast<const int8_t *>(
     get_const_function__Frame__data(untyped_member, index));
-  auto & value = *reinterpret_cast<uint8_t *>(untyped_value);
+  auto & value = *reinterpret_cast<int8_t *>(untyped_value);
   value = item;
 }
 
 void assign_function__Frame__data(
   void * untyped_member, size_t index, const void * untyped_value)
 {
-  auto & item = *reinterpret_cast<uint8_t *>(
+  auto & item = *reinterpret_cast<int8_t *>(
     get_function__Frame__data(untyped_member, index));
-  const auto & value = *reinterpret_cast<const uint8_t *>(untyped_value);
+  const auto & value = *reinterpret_cast<const int8_t *>(untyped_value);
   item = value;
 }
 
@@ -187,7 +187,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Frame_message
   },
   {
     "data",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key

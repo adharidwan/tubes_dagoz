@@ -33,7 +33,7 @@ ros2_socketcan_msgs__msg__FdFrame__init(ros2_socketcan_msgs__msg__FdFrame * msg)
   // is_error
   // len
   // data
-  if (!rosidl_runtime_c__uint8__Sequence__init(&msg->data, 0)) {
+  if (!rosidl_runtime_c__int8__Sequence__init(&msg->data, 0)) {
     ros2_socketcan_msgs__msg__FdFrame__fini(msg);
     return false;
   }
@@ -53,7 +53,7 @@ ros2_socketcan_msgs__msg__FdFrame__fini(ros2_socketcan_msgs__msg__FdFrame * msg)
   // is_error
   // len
   // data
-  rosidl_runtime_c__uint8__Sequence__fini(&msg->data);
+  rosidl_runtime_c__int8__Sequence__fini(&msg->data);
 }
 
 bool
@@ -85,7 +85,7 @@ ros2_socketcan_msgs__msg__FdFrame__are_equal(const ros2_socketcan_msgs__msg__FdF
     return false;
   }
   // data
-  if (!rosidl_runtime_c__uint8__Sequence__are_equal(
+  if (!rosidl_runtime_c__int8__Sequence__are_equal(
       &(lhs->data), &(rhs->data)))
   {
     return false;
@@ -116,7 +116,7 @@ ros2_socketcan_msgs__msg__FdFrame__copy(
   // len
   output->len = input->len;
   // data
-  if (!rosidl_runtime_c__uint8__Sequence__copy(
+  if (!rosidl_runtime_c__int8__Sequence__copy(
       &(input->data), &(output->data)))
   {
     return false;

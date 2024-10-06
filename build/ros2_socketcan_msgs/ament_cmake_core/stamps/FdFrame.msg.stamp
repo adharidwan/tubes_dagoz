@@ -3,4 +3,4 @@ uint32 id
 bool is_extended
 bool is_error
 uint8 len
-uint8[<=64] data
+int8[<=64] data

@@ -40,46 +40,46 @@ void FdFrame_fini_function(void * message_memory)
 
 size_t size_function__FdFrame__data(const void * untyped_member)
 {
-  const auto * member = reinterpret_cast<const std::vector<uint8_t> *>(untyped_member);
+  const auto * member = reinterpret_cast<const std::vector<int8_t> *>(untyped_member);
   return member->size();
 }
 
 const void * get_const_function__FdFrame__data(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::vector<uint8_t> *>(untyped_member);
+    *reinterpret_cast<const std::vector<int8_t> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__FdFrame__data(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::vector<uint8_t> *>(untyped_member);
+    *reinterpret_cast<std::vector<int8_t> *>(untyped_member);
   return &member[index];
 }
 
 void fetch_function__FdFrame__data(
   const void * untyped_member, size_t index, void * untyped_value)
 {
-  const auto & item = *reinterpret_cast<const uint8_t *>(
+  const auto & item = *reinterpret_cast<const int8_t *>(
     get_const_function__FdFrame__data(untyped_member, index));
-  auto & value = *reinterpret_cast<uint8_t *>(untyped_value);
+  auto & value = *reinterpret_cast<int8_t *>(untyped_value);
   value = item;
 }
 
 void assign_function__FdFrame__data(
   void * untyped_member, size_t index, const void * untyped_value)
 {
-  auto & item = *reinterpret_cast<uint8_t *>(
+  auto & item = *reinterpret_cast<int8_t *>(
     get_function__FdFrame__data(untyped_member, index));
-  const auto & value = *reinterpret_cast<const uint8_t *>(untyped_value);
+  const auto & value = *reinterpret_cast<const int8_t *>(untyped_value);
   item = value;
 }
 
 void resize_function__FdFrame__data(void * untyped_member, size_t size)
 {
   auto * member =
-    reinterpret_cast<std::vector<uint8_t> *>(untyped_member);
+    reinterpret_cast<std::vector<int8_t> *>(untyped_member);
   member->resize(size);
 }
 
@@ -176,7 +176,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FdFrame_messa
   },
   {
     "data",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key

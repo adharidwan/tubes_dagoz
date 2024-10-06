@@ -26,7 +26,7 @@ add_executable(keyboard_input src/keyboard_input.cpp)
 add_executable(translator_node src/translator_node.cpp)
 
 ament_target_dependencies(keyboard_input rclcpp geometry_msgs msgs)
-ament_target_dependencies(translator_node rclcpp geometry_msgs ros2_socketcan msgs)
+ament_target_dependencies(translator_node rclcpp geometry_msgs can_msgs msgs)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.

@@ -11,10 +11,10 @@ ros2_socketcan_msgs__msg__FdFrame__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x0f, 0xc5, 0x1a, 0x66, 0x0e, 0xd9, 0x86, 0xc0,
-      0xc0, 0x22, 0xce, 0x28, 0xce, 0xf9, 0x11, 0x6d,
-      0x15, 0x93, 0x30, 0xac, 0x6c, 0xa7, 0xd1, 0xe8,
-      0x8d, 0x34, 0x7d, 0xd3, 0xac, 0x81, 0x65, 0xf5,
+      0x93, 0xb9, 0xab, 0xd7, 0x52, 0x24, 0x74, 0xbf,
+      0x57, 0x6c, 0x94, 0x88, 0x25, 0xd6, 0x2c, 0x73,
+      0x1f, 0x29, 0xe8, 0x6c, 0xf8, 0xb7, 0x88, 0xbe,
+      0x64, 0xd0, 0xc1, 0xc7, 0xa0, 0x49, 0xae, 0x95,
     }};
   return &hash;
 }
@@ -108,7 +108,7 @@ static rosidl_runtime_c__type_description__Field ros2_socketcan_msgs__msg__FdFra
   {
     {ros2_socketcan_msgs__msg__FdFrame__FIELD_NAME__data, 4, 4},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_UINT8_BOUNDED_SEQUENCE,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT8_BOUNDED_SEQUENCE,
       64,
       0,
       {NULL, 0, 0},
@@ -157,7 +157,7 @@ static char toplevel_type_raw_source[] =
   "bool is_extended\n"
   "bool is_error\n"
   "uint8 len\n"
-  "uint8[<=64] data";
+  "int8[<=64] data";
 
 static char msg_encoding[] = "msg";
 
@@ -171,7 +171,7 @@ ros2_socketcan_msgs__msg__FdFrame__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {ros2_socketcan_msgs__msg__FdFrame__TYPE_NAME, 31, 31},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 91, 91},
+    {toplevel_type_raw_source, 90, 90},
   };
   return &source;
 }

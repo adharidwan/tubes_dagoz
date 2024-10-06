@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "ros2_socketcan_msgs/msg/detail/fd_frame__type_support.h"
 #include "ros2_socketcan_msgs/msg/detail/fd_frame__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "ros2_socketcan_msgs/msg/detail/fd_frame__struct.h"
-#include "ros2_socketcan_msgs/msg/detail/fd_frame__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

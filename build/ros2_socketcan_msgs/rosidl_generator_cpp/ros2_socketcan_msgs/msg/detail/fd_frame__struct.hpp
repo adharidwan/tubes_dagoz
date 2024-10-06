@@ -83,7 +83,7 @@ struct FdFrame_
     uint8_t;
   _len_type len;
   using _data_type =
-    rosidl_runtime_cpp::BoundedVector<uint8_t, 64, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>>;
+    rosidl_runtime_cpp::BoundedVector<int8_t, 64, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int8_t>>;
   _data_type data;
 
   // setters for named parameter idiom
@@ -118,7 +118,7 @@ struct FdFrame_
     return *this;
   }
   Type & set__data(
-    const rosidl_runtime_cpp::BoundedVector<uint8_t, 64, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> & _arg)
+    const rosidl_runtime_cpp::BoundedVector<int8_t, 64, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int8_t>> & _arg)
   {
     this->data = _arg;
     return *this;

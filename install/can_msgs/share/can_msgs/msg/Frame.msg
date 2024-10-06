@@ -4,4 +4,4 @@ bool is_rtr
 bool is_extended
 bool is_error
 uint8 dlc
-uint8[8] data
+int8[8] data

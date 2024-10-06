@@ -126,12 +126,12 @@ bool can_msgs__msg__frame__convert_from_py(PyObject * _pymsg, void * _ros_messag
       PyArrayObject * seq_field = (PyArrayObject *)field;
       Py_INCREF(seq_field);
       assert(PyArray_NDIM(seq_field) == 1);
-      assert(PyArray_TYPE(seq_field) == NPY_UINT8);
+      assert(PyArray_TYPE(seq_field) == NPY_INT8);
       Py_ssize_t size = 8;
-      uint8_t * dest = ros_message->data;
+      int8_t * dest = ros_message->data;
       for (Py_ssize_t i = 0; i < size; ++i) {
-        uint8_t tmp = *(npy_uint8 *)PyArray_GETPTR1(seq_field, i);
-        memcpy(&dest[i], &tmp, sizeof(uint8_t));
+        int8_t tmp = *(npy_int8 *)PyArray_GETPTR1(seq_field, i);
+        memcpy(&dest[i], &tmp, sizeof(int8_t));
       }
       Py_DECREF(seq_field);
     }
@@ -239,11 +239,11 @@ PyObject * can_msgs__msg__frame__convert_to_py(void * raw_ros_message)
     assert(strcmp(field->ob_type->tp_name, "numpy.ndarray") == 0);
     PyArrayObject * seq_field = (PyArrayObject *)field;
     assert(PyArray_NDIM(seq_field) == 1);
-    assert(PyArray_TYPE(seq_field) == NPY_UINT8);
-    assert(sizeof(npy_uint8) == sizeof(uint8_t));
-    npy_uint8 * dst = (npy_uint8 *)PyArray_GETPTR1(seq_field, 0);
-    uint8_t * src = &(ros_message->data[0]);
-    memcpy(dst, src, 8 * sizeof(uint8_t));
+    assert(PyArray_TYPE(seq_field) == NPY_INT8);
+    assert(sizeof(npy_int8) == sizeof(int8_t));
+    npy_int8 * dst = (npy_int8 *)PyArray_GETPTR1(seq_field, 0);
+    int8_t * src = &(ros_message->data[0]);
+    memcpy(dst, src, 8 * sizeof(int8_t));
     Py_DECREF(field);
   }
 

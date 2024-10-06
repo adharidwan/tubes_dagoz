@@ -11,7 +11,7 @@
   <depend>rclcpp</depend>
   <depend>geometry_msgs</depend>
   <depend>ros2_socketcan</depend>
-  <depend>ros2_socketcan_msgs</depend>
+  <depend>can_msgs</depend>
   <exec_depend>msgs</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
