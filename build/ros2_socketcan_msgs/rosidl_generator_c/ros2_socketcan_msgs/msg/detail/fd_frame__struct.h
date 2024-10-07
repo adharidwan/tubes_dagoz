@@ -40,7 +40,7 @@ typedef struct ros2_socketcan_msgs__msg__FdFrame
   bool is_extended;
   bool is_error;
   uint8_t len;
-  rosidl_runtime_c__int8__Sequence data;
+  rosidl_runtime_c__uint8__Sequence data;
 } ros2_socketcan_msgs__msg__FdFrame;
 
 // Struct for a sequence of ros2_socketcan_msgs__msg__FdFrame.

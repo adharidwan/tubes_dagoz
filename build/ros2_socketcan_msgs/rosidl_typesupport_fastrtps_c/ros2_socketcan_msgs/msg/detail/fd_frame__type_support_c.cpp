@@ -173,9 +173,9 @@ bool cdr_deserialize_ros2_socketcan_msgs__msg__FdFrame(
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
     if (ros_message->data.data) {
-      rosidl_runtime_c__int8__Sequence__fini(&ros_message->data);
+      rosidl_runtime_c__uint8__Sequence__fini(&ros_message->data);
     }
-    if (!rosidl_runtime_c__int8__Sequence__init(&ros_message->data, size)) {
+    if (!rosidl_runtime_c__uint8__Sequence__init(&ros_message->data, size)) {
       fprintf(stderr, "failed to create array for field 'data'");
       return false;
     }

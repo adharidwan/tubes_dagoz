@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "can_msgs/msg/detail/frame__functions.h"
-#include "can_msgs/msg/detail/frame__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "can_msgs/msg/detail/frame__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "can_msgs/msg/detail/frame__struct.h"
 
 #ifdef __cplusplus
 extern "C"

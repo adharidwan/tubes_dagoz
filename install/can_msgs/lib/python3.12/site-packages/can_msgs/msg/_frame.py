@@ -86,7 +86,7 @@ class Frame(metaclass=Metaclass_Frame):
         'is_extended': 'boolean',
         'is_error': 'boolean',
         'dlc': 'uint8',
-        'data': 'int8[8]',
+        'data': 'uint8[8]',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -98,7 +98,7 @@ class Frame(metaclass=Metaclass_Frame):
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int8'), 8),  # noqa: E501
+        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('uint8'), 8),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -118,9 +118,9 @@ class Frame(metaclass=Metaclass_Frame):
         self.is_error = kwargs.get('is_error', bool())
         self.dlc = kwargs.get('dlc', int())
         if 'data' not in kwargs:
-            self.data = numpy.zeros(8, dtype=numpy.int8)
+            self.data = numpy.zeros(8, dtype=numpy.uint8)
         else:
-            self.data = numpy.array(kwargs.get('data'), dtype=numpy.int8)
+            self.data = numpy.array(kwargs.get('data'), dtype=numpy.uint8)
             assert self.data.shape == (8, )
 
     def __repr__(self):
@@ -266,8 +266,8 @@ class Frame(metaclass=Metaclass_Frame):
     def data(self, value):
         if self._check_fields:
             if isinstance(value, numpy.ndarray):
-                assert value.dtype == numpy.int8, \
-                    "The 'data' numpy.ndarray() must have the dtype of 'numpy.int8'"
+                assert value.dtype == numpy.uint8, \
+                    "The 'data' numpy.ndarray() must have the dtype of 'numpy.uint8'"
                 assert value.size == 8, \
                     "The 'data' numpy.ndarray() must have a size of 8"
                 self._data = value
@@ -284,6 +284,6 @@ class Frame(metaclass=Metaclass_Frame):
                  not isinstance(value, UserString) and
                  len(value) == 8 and
                  all(isinstance(v, int) for v in value) and
-                 all(val >= -128 and val < 128 for val in value)), \
-                "The 'data' field must be a set or sequence with length 8 and each value of type 'int' and each integer in [-128, 127]"
-        self._data = numpy.array(value, dtype=numpy.int8)
+                 all(val >= 0 and val < 256 for val in value)), \
+                "The 'data' field must be a set or sequence with length 8 and each value of type 'int' and each unsigned integer in [0, 255]"
+        self._data = numpy.array(value, dtype=numpy.uint8)

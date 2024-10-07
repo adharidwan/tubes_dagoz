@@ -84,7 +84,7 @@ class FdFrame(metaclass=Metaclass_FdFrame):
         'is_extended': 'boolean',
         'is_error': 'boolean',
         'len': 'uint8',
-        'data': 'sequence<int8, 64>',
+        'data': 'sequence<uint8, 64>',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -95,7 +95,7 @@ class FdFrame(metaclass=Metaclass_FdFrame):
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.BasicType('int8'), 64),  # noqa: E501
+        rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.BasicType('uint8'), 64),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -113,7 +113,7 @@ class FdFrame(metaclass=Metaclass_FdFrame):
         self.is_extended = kwargs.get('is_extended', bool())
         self.is_error = kwargs.get('is_error', bool())
         self.len = kwargs.get('len', int())
-        self.data = array.array('b', kwargs.get('data', []))
+        self.data = array.array('B', kwargs.get('data', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -243,8 +243,8 @@ class FdFrame(metaclass=Metaclass_FdFrame):
     def data(self, value):
         if self._check_fields:
             if isinstance(value, array.array):
-                assert value.typecode == 'b', \
-                    "The 'data' array.array() must have the type code of 'b'"
+                assert value.typecode == 'B', \
+                    "The 'data' array.array() must have the type code of 'B'"
                 assert len(value) <= 64, \
                     "The 'data' array.array() must have a size <= 64"
                 self._data = value
@@ -261,6 +261,6 @@ class FdFrame(metaclass=Metaclass_FdFrame):
                  not isinstance(value, UserString) and
                  len(value) <= 64 and
                  all(isinstance(v, int) for v in value) and
-                 all(val >= -128 and val < 128 for val in value)), \
-                "The 'data' field must be a set or sequence with length <= 64 and each value of type 'int' and each integer in [-128, 127]"
-        self._data = array.array('b', value)
+                 all(val >= 0 and val < 256 for val in value)), \
+                "The 'data' field must be a set or sequence with length <= 64 and each value of type 'int' and each unsigned integer in [0, 255]"
+        self._data = array.array('B', value)

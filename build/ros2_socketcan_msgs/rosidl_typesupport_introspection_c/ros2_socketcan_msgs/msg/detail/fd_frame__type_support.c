@@ -42,56 +42,56 @@ void ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__FdFr
 size_t ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__size_function__FdFrame__data(
   const void * untyped_member)
 {
-  const rosidl_runtime_c__int8__Sequence * member =
-    (const rosidl_runtime_c__int8__Sequence *)(untyped_member);
+  const rosidl_runtime_c__uint8__Sequence * member =
+    (const rosidl_runtime_c__uint8__Sequence *)(untyped_member);
   return member->size;
 }
 
 const void * ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__get_const_function__FdFrame__data(
   const void * untyped_member, size_t index)
 {
-  const rosidl_runtime_c__int8__Sequence * member =
-    (const rosidl_runtime_c__int8__Sequence *)(untyped_member);
+  const rosidl_runtime_c__uint8__Sequence * member =
+    (const rosidl_runtime_c__uint8__Sequence *)(untyped_member);
   return &member->data[index];
 }
 
 void * ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__get_function__FdFrame__data(
   void * untyped_member, size_t index)
 {
-  rosidl_runtime_c__int8__Sequence * member =
-    (rosidl_runtime_c__int8__Sequence *)(untyped_member);
+  rosidl_runtime_c__uint8__Sequence * member =
+    (rosidl_runtime_c__uint8__Sequence *)(untyped_member);
   return &member->data[index];
 }
 
 void ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__fetch_function__FdFrame__data(
   const void * untyped_member, size_t index, void * untyped_value)
 {
-  const int8_t * item =
-    ((const int8_t *)
+  const uint8_t * item =
+    ((const uint8_t *)
     ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__get_const_function__FdFrame__data(untyped_member, index));
-  int8_t * value =
-    (int8_t *)(untyped_value);
+  uint8_t * value =
+    (uint8_t *)(untyped_value);
   *value = *item;
 }
 
 void ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__assign_function__FdFrame__data(
   void * untyped_member, size_t index, const void * untyped_value)
 {
-  int8_t * item =
-    ((int8_t *)
+  uint8_t * item =
+    ((uint8_t *)
     ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__get_function__FdFrame__data(untyped_member, index));
-  const int8_t * value =
-    (const int8_t *)(untyped_value);
+  const uint8_t * value =
+    (const uint8_t *)(untyped_value);
   *item = *value;
 }
 
 bool ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__resize_function__FdFrame__data(
   void * untyped_member, size_t size)
 {
-  rosidl_runtime_c__int8__Sequence * member =
-    (rosidl_runtime_c__int8__Sequence *)(untyped_member);
-  rosidl_runtime_c__int8__Sequence__fini(member);
-  return rosidl_runtime_c__int8__Sequence__init(member, size);
+  rosidl_runtime_c__uint8__Sequence * member =
+    (rosidl_runtime_c__uint8__Sequence *)(untyped_member);
+  rosidl_runtime_c__uint8__Sequence__fini(member);
+  return rosidl_runtime_c__uint8__Sequence__init(member, size);
 }
 
 static rosidl_typesupport_introspection_c__MessageMember ros2_socketcan_msgs__msg__FdFrame__rosidl_typesupport_introspection_c__FdFrame_message_member_array[6] = {
@@ -187,7 +187,7 @@ static rosidl_typesupport_introspection_c__MessageMember ros2_socketcan_msgs__ms
   },
   {
     "data",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key

@@ -56,7 +56,7 @@
         {
           "name": "data",
           "type": {
-            "type_id": 98,
+            "type_id": 99,
             "capacity": 64,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -121,7 +121,7 @@
   "type_hashes": [
     {
       "type_name": "ros2_socketcan_msgs/msg/FdFrame",
-      "hash_string": "RIHS01_93b9abd7522474bf576c948825d62c731f29e86cf8b788be64d0c1c7a049ae95"
+      "hash_string": "RIHS01_0fc51a660ed986c0c022ce28cef9116d159330ac6ca7d1e88d347dd3ac8165f5"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",

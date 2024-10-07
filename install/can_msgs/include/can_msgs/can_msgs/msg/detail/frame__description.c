@@ -11,10 +11,10 @@ can_msgs__msg__Frame__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x44, 0x2e, 0x31, 0x3e, 0x2d, 0x12, 0x6f, 0xe5,
-      0xca, 0x99, 0x69, 0x4b, 0x59, 0xc3, 0xcb, 0xa0,
-      0xad, 0x0b, 0x4f, 0xe7, 0x49, 0x58, 0x99, 0x45,
-      0x2d, 0xc4, 0x7b, 0x3f, 0xb6, 0xba, 0x11, 0x8d,
+      0x0c, 0xdc, 0x7d, 0x15, 0x65, 0x75, 0x73, 0xee,
+      0x6f, 0xf1, 0x51, 0xe5, 0xcc, 0x19, 0x43, 0x88,
+      0x83, 0x01, 0xe3, 0x70, 0xd9, 0x57, 0xe2, 0xc0,
+      0x77, 0xa1, 0x54, 0xf4, 0x75, 0x5f, 0xd9, 0x76,
     }};
   return &hash;
 }
@@ -23,8 +23,8 @@ can_msgs__msg__Frame__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -119,7 +119,7 @@ static rosidl_runtime_c__type_description__Field can_msgs__msg__Frame__FIELDS[] 
   {
     {can_msgs__msg__Frame__FIELD_NAME__data, 4, 4},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT8_ARRAY,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_UINT8_ARRAY,
       8,
       0,
       {NULL, 0, 0},
@@ -169,7 +169,7 @@ static char toplevel_type_raw_source[] =
   "bool is_extended\n"
   "bool is_error\n"
   "uint8 dlc\n"
-  "int8[8] data";
+  "uint8[8] data";
 
 static char msg_encoding[] = "msg";
 
@@ -183,7 +183,7 @@ can_msgs__msg__Frame__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {can_msgs__msg__Frame__TYPE_NAME, 18, 18},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 99, 99},
+    {toplevel_type_raw_source, 100, 100},
   };
   return &source;
 }

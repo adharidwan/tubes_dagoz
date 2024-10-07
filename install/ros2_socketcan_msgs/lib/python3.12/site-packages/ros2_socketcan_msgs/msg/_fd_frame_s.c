@@ -117,14 +117,14 @@ bool ros2_socketcan_msgs__msg__fd_frame__convert_from_py(PyObject * _pymsg, void
         Py_DECREF(field);
         return false;
       }
-      Py_ssize_t size = view.len / sizeof(int8_t);
-      if (!rosidl_runtime_c__int8__Sequence__init(&(ros_message->data), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int8__Sequence ros_message");
+      Py_ssize_t size = view.len / sizeof(uint8_t);
+      if (!rosidl_runtime_c__uint8__Sequence__init(&(ros_message->data), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create uint8__Sequence ros_message");
         PyBuffer_Release(&view);
         Py_DECREF(field);
         return false;
       }
-      int8_t * dest = ros_message->data.data;
+      uint8_t * dest = ros_message->data.data;
       rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
       if (rc < 0) {
         PyBuffer_Release(&view);
@@ -144,13 +144,13 @@ bool ros2_socketcan_msgs__msg__fd_frame__convert_from_py(PyObject * _pymsg, void
         Py_DECREF(field);
         return false;
       }
-      if (!rosidl_runtime_c__int8__Sequence__init(&(ros_message->data), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int8__Sequence ros_message");
+      if (!rosidl_runtime_c__uint8__Sequence__init(&(ros_message->data), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create uint8__Sequence ros_message");
         Py_DECREF(seq_field);
         Py_DECREF(field);
         return false;
       }
-      int8_t * dest = ros_message->data.data;
+      uint8_t * dest = ros_message->data.data;
       for (Py_ssize_t i = 0; i < size; ++i) {
         PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
         if (!item) {
@@ -159,8 +159,9 @@ bool ros2_socketcan_msgs__msg__fd_frame__convert_from_py(PyObject * _pymsg, void
           return false;
         }
         assert(PyLong_Check(item));
-        int8_t tmp = (int8_t)PyLong_AsLong(item);
-        memcpy(&dest[i], &tmp, sizeof(int8_t));
+        uint8_t tmp = (uint8_t)PyLong_AsUnsignedLong(item);
+
+        memcpy(&dest[i], &tmp, sizeof(uint8_t));
       }
       Py_DECREF(seq_field);
     }
@@ -260,7 +261,7 @@ PyObject * ros2_socketcan_msgs__msg__fd_frame__convert_to_py(void * raw_ros_mess
     assert(itemsize_attr != NULL);
     size_t itemsize = PyLong_AsSize_t(itemsize_attr);
     Py_DECREF(itemsize_attr);
-    if (itemsize != sizeof(int8_t)) {
+    if (itemsize != sizeof(uint8_t)) {
       PyErr_SetString(PyExc_RuntimeError, "itemsize doesn't match expectation");
       Py_DECREF(field);
       return NULL;
@@ -289,8 +290,8 @@ PyObject * ros2_socketcan_msgs__msg__fd_frame__convert_to_py(void * raw_ros_mess
       // populating the array.array using the frombytes method
       PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
       assert(frombytes != NULL);
-      int8_t * src = &(ros_message->data.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->data.size * sizeof(int8_t));
+      uint8_t * src = &(ros_message->data.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->data.size * sizeof(uint8_t));
       assert(data != NULL);
       PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
       Py_DECREF(data);

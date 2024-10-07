@@ -51,7 +51,7 @@ struct Frame_
       this->is_extended = false;
       this->is_error = false;
       this->dlc = 0;
-      std::fill<typename std::array<int8_t, 8>::iterator, int8_t>(this->data.begin(), this->data.end(), 0);
+      std::fill<typename std::array<uint8_t, 8>::iterator, uint8_t>(this->data.begin(), this->data.end(), 0);
     }
   }
 
@@ -67,7 +67,7 @@ struct Frame_
       this->is_extended = false;
       this->is_error = false;
       this->dlc = 0;
-      std::fill<typename std::array<int8_t, 8>::iterator, int8_t>(this->data.begin(), this->data.end(), 0);
+      std::fill<typename std::array<uint8_t, 8>::iterator, uint8_t>(this->data.begin(), this->data.end(), 0);
     }
   }
 
@@ -91,7 +91,7 @@ struct Frame_
     uint8_t;
   _dlc_type dlc;
   using _data_type =
-    std::array<int8_t, 8>;
+    std::array<uint8_t, 8>;
   _data_type data;
 
   // setters for named parameter idiom
@@ -132,7 +132,7 @@ struct Frame_
     return *this;
   }
   Type & set__data(
-    const std::array<int8_t, 8> & _arg)
+    const std::array<uint8_t, 8> & _arg)
   {
     this->data = _arg;
     return *this;

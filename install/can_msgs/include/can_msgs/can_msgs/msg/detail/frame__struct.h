@@ -32,7 +32,7 @@ typedef struct can_msgs__msg__Frame
   bool is_extended;
   bool is_error;
   uint8_t dlc;
-  int8_t data[8];
+  uint8_t data[8];
 } can_msgs__msg__Frame;
 
 // Struct for a sequence of can_msgs__msg__Frame.

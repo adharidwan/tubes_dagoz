@@ -47,38 +47,38 @@ size_t can_msgs__msg__Frame__rosidl_typesupport_introspection_c__size_function__
 const void * can_msgs__msg__Frame__rosidl_typesupport_introspection_c__get_const_function__Frame__data(
   const void * untyped_member, size_t index)
 {
-  const int8_t * member =
-    (const int8_t *)(untyped_member);
+  const uint8_t * member =
+    (const uint8_t *)(untyped_member);
   return &member[index];
 }
 
 void * can_msgs__msg__Frame__rosidl_typesupport_introspection_c__get_function__Frame__data(
   void * untyped_member, size_t index)
 {
-  int8_t * member =
-    (int8_t *)(untyped_member);
+  uint8_t * member =
+    (uint8_t *)(untyped_member);
   return &member[index];
 }
 
 void can_msgs__msg__Frame__rosidl_typesupport_introspection_c__fetch_function__Frame__data(
   const void * untyped_member, size_t index, void * untyped_value)
 {
-  const int8_t * item =
-    ((const int8_t *)
+  const uint8_t * item =
+    ((const uint8_t *)
     can_msgs__msg__Frame__rosidl_typesupport_introspection_c__get_const_function__Frame__data(untyped_member, index));
-  int8_t * value =
-    (int8_t *)(untyped_value);
+  uint8_t * value =
+    (uint8_t *)(untyped_value);
   *value = *item;
 }
 
 void can_msgs__msg__Frame__rosidl_typesupport_introspection_c__assign_function__Frame__data(
   void * untyped_member, size_t index, const void * untyped_value)
 {
-  int8_t * item =
-    ((int8_t *)
+  uint8_t * item =
+    ((uint8_t *)
     can_msgs__msg__Frame__rosidl_typesupport_introspection_c__get_function__Frame__data(untyped_member, index));
-  const int8_t * value =
-    (const int8_t *)(untyped_value);
+  const uint8_t * value =
+    (const uint8_t *)(untyped_value);
   *item = *value;
 }
 
@@ -193,7 +193,7 @@ static rosidl_typesupport_introspection_c__MessageMember can_msgs__msg__Frame__r
   },
   {
     "data",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
