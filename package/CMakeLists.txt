@@ -6,7 +6,9 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(tubes_dagoz_msgs REQUIRED)
 
-add_executable(control_node src/control/control_node.cpp)
+include_directories(include)
+
+add_executable(control_node src/control_node.cpp)
 ament_target_dependencies(control_node rclcpp std_msgs tubes_dagoz_msgs)
 
 install(TARGETS

@@ -1,6 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
-#include "tubes_dagoz_msgs/hardware_command.hpp"
-#include "tubes_dagoz/control/include/control/control_node.hpp"
+#include "tubes_dagoz_msgs/msg/hardware_command.hpp"
+#include "control/control_node.hpp"
+
 
 class ControlNode : public rclcpp::Node {
 public:
