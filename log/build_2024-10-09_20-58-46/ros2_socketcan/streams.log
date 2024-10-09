@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/kesha/Kuliah/dagoz/Tugas-Besar/build/ros2_socketcan': /usr/bin/cmake /home/kesha/Kuliah/dagoz/Tugas-Besar/src/ros2_socketcan -DCMAKE_INSTALL_PREFIX=/home/kesha/Kuliah/dagoz/Tugas-Besar/install/ros2_socketcan
+[0.168s] -- The C compiler identification is GNU 13.2.0
+[0.364s] -- The CXX compiler identification is GNU 13.2.0
+[0.394s] -- Detecting C compiler ABI info
+[0.536s] -- Detecting C compiler ABI info - done
+[0.549s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.551s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.731s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.747s] -- Detecting CXX compile features
+[0.747s] -- Detecting CXX compile features - done
+[0.763s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.763s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.763s]   project has asked CMake to find a package configuration file provided by
+[0.763s]   "ament_cmake_auto", but CMake did not find one.
+[0.763s] 
+[0.763s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.763s]   with any of the following names:
+[0.763s] 
+[0.763s]     ament_cmake_autoConfig.cmake
+[0.764s]     ament_cmake_auto-config.cmake
+[0.764s] 
+[0.764s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.764s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.764s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.764s]   SDK, be sure it has been installed.
+[0.764s] 
+[0.764s] [0m
+[0.764s] -- Configuring incomplete, errors occurred!

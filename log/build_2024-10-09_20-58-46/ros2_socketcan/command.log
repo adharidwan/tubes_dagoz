@@ -1,0 +1,1 @@
+Invoking command in '/home/kesha/Kuliah/dagoz/Tugas-Besar/build/ros2_socketcan': /usr/bin/cmake /home/kesha/Kuliah/dagoz/Tugas-Besar/src/ros2_socketcan -DCMAKE_INSTALL_PREFIX=/home/kesha/Kuliah/dagoz/Tugas-Besar/install/ros2_socketcan
