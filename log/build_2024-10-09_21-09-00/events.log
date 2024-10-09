@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000889] (-) JobUnselected: {'identifier': 'expander_controller'}
+[0.000952] (-) JobUnselected: {'identifier': 'ros2_socketcan'}
+[0.000985] (-) EventReactorShutdown: {}
