@@ -1,0 +1,26 @@
+[ 50%] Built target keyboard_input
+[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_vel[m[K(double, double) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:82:28:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   82 |         float_to_hex(-21.5,[01;31m[Kmotor4[m[K);
+      |                            [01;31m[K^~~~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kuint8_t {aka unsigned char}[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:93:44:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid VelocitySubscriber::[01;32m[Kfloat_to_hex[m[K(double, uint8_t*) const[m[K’
+   93 |     void float_to_hex(double vel, [01;36m[Kuint8_t* buffer[m[K) const {
+      |                                   [01;36m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:83:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   83 |         can_msg2.data[4] = motor4[01;31m[K[[m[K0];
+      |                                  [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:84:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   84 |         can_msg2.data[5] = motor4[01;31m[K[[m[K1];
+      |                                  [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:85:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   85 |         can_msg2.data[6] = motor4[01;31m[K[[m[K2];
+      |                                  [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:86:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   86 |         can_msg2.data[7] = motor4[01;31m[K[[m[K3];
+      |                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

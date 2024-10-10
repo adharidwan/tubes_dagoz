@@ -44,9 +44,12 @@ private:
         float vel_motor4 = linear_y;
 
         auto can_msg1 = can_msgs::msg::Frame();
+        auto can_msg2 = can_msgs::msg::Frame();
 
         can_msg1.id = 0x123;
-        can_msg1.dlc = 8;    
+        can_msg2.id = 0x124;
+        can_msg1.dlc = 8;
+        can_msg2.dlc = 8;    
 
         can_msg1.data[0] = vel_motor1;
         can_msg1.data[1] = vel_motor2;
@@ -66,6 +69,24 @@ private:
         can_msg1.data[5] = motor2[1];
         can_msg1.data[6] = motor2[2];
         can_msg1.data[7] = motor2[3];
+
+        uint8_t motor3[4];
+        float_to_hex(-17.5,motor3);
+        can_msg2.data[0] = motor3[0];
+        can_msg2.data[1] = motor3[1];
+        can_msg2.data[2] = motor3[2];
+        can_msg2.data[3] = motor3[3];
+
+
+        uint8_t motor4[4];
+        float_to_hex(-12.5,motor4);
+        can_msg2.data[4] = motor4[0];
+        can_msg2.data[5] = motor4[1];
+        can_msg2.data[6] = motor4[2];
+        can_msg2.data[7] = motor4[3];
+
+
+        can_publisher_->publish(can_msg2);
         can_publisher_->publish(can_msg1);
     }
 
