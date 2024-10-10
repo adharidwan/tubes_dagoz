@@ -1,14 +1,20 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "can_msgs/msg/frame.hpp"
+#include <iostream>
+#include <cstdint>
 
-const int MAX_PWM = 255;
+union FloatBytes {
+    float floatValue;
+    uint8_t byteArray[4];
+};
+
 
 class VelocitySubscriber : public rclcpp::Node
 {
 public:
     VelocitySubscriber()
-    : Node("velocity_subscriber")
+    : Node("translator_node")
     {
         subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "cmd_vel",
@@ -26,10 +32,10 @@ private:
 
         RCLCPP_INFO(this->get_logger(), "Linear Velocity X: %.2f, Linear Velocity Y: %.2f", linear_x, linear_y);
 
-        twist_to_pwm(linear_x, linear_y);
+        twist_to_vel(linear_x, linear_y);
     }
 
-    void twist_to_pwm(double linear_x, double linear_y) const
+    void twist_to_vel(double linear_x, double linear_y) const
     { 
 
         float vel_motor1 = linear_x;
@@ -37,19 +43,38 @@ private:
         float vel_motor3 = linear_x;
         float vel_motor4 = linear_y;
 
-        auto can_msg = can_msgs::msg::Frame();
-        can_msg.id = 0x123;
-        can_msg.dlc = 8;    
+        auto can_msg1 = can_msgs::msg::Frame();
 
-        can_msg.data[0] = vel_motor1;
-        can_msg.data[1] = vel_motor1;
-        can_msg.data[2] = vel_motor2;
-        can_msg.data[3] = vel_motor2;
-        can_msg.data[4] = vel_motor3;
-        can_msg.data[5] = vel_motor3;
-        can_msg.data[6] = vel_motor4;
-        can_msg.data[7] = vel_motor4;
-        can_publisher_->publish(can_msg);
+        can_msg1.id = 0x123;
+        can_msg1.dlc = 8;    
+
+        can_msg1.data[0] = vel_motor1;
+        can_msg1.data[1] = vel_motor2;
+        can_msg1.data[2] = vel_motor3;
+        can_msg1.data[3] = vel_motor4;
+
+        uint8_t motor1[4];
+        float_to_hex(-23.75,motor1);
+        can_msg1.data[0] = motor1[0];
+        can_msg1.data[1] = motor1[1];
+        can_msg1.data[2] = motor1[2];
+        can_msg1.data[3] = motor1[3];
+        
+        uint8_t motor2[4];
+        float_to_hex(-21.5,motor2);
+        can_msg1.data[4] = motor2[0];
+        can_msg1.data[5] = motor2[1];
+        can_msg1.data[6] = motor2[2];
+        can_msg1.data[7] = motor2[3];
+        can_publisher_->publish(can_msg1);
+    }
+
+    void float_to_hex(double vel, uint8_t* buffer) const {
+        FloatBytes converter;
+        converter.floatValue = vel;
+        for(int i = 0 ; i < 4;i++){
+            buffer[i] = converter.byteArray[i];
+        }
     }
 
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;

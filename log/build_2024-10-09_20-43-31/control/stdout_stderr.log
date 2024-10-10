@@ -1,0 +1,51 @@
+[ 50%] Built target keyboard_input
+[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_vel[m[K(double, double) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcan_hex[m[K’ was not declared in this scope
+   58 |         [01;31m[Kcan_hex[m[K[4] = float_to_hex(-23.75,0);
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:58:34:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst VelocitySubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |         can_hex[4] = [01;31m[Kfloat_to_hex(-23.75,0)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:66:11:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kfloat VelocitySubscriber::[01;32m[Kfloat_to_hex[m[K(double, int)[m[K’
+   66 |     float [01;36m[Kfloat_to_hex[m[K(double vel,int idx){
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:59:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K[[m[K’ token
+   59 |         can_msgs[01;31m[K[[m[K0] = can_hex[0];
+      |                 [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:60:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K[[m[K’ token
+   60 |         can_msgs[01;31m[K[[m[K1] = can_hex[1];
+      |                 [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:61:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K[[m[K’ token
+   61 |         can_msgs[01;31m[K[[m[K2] = can_hex[2];
+      |                 [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:62:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K[[m[K’ token
+   62 |         can_msgs[01;31m[K[[m[K3] = can_hex[3];
+      |                 [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:41:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_motor1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |         float [01;35m[Kvel_motor1[m[K = linear_x;
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:42:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_motor2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   42 |         float [01;35m[Kvel_motor2[m[K = linear_y;
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:43:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_motor3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   43 |         float [01;35m[Kvel_motor3[m[K = linear_x;
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:44:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_motor4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |         float [01;35m[Kvel_motor4[m[K = linear_y;
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kfloat VelocitySubscriber::[01;32m[Kfloat_to_hex[m[K(double, int)[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:70:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+   70 |         for(int i = 0 ; [01;31m[K<[m[K 4;i++){
+      |                         [01;31m[K^[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:73:16:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} to ‘[01m[Kfloat[m[K’ in return
+   73 |         return [01;31m[Kbuffer[m[K;
+      |                [01;31m[K^~~~~~[m[K
+      |                [01;31m[K|[m[K
+      |                [01;31m[Kuint8_t* {aka unsigned char*}[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:66:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kidx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |     float float_to_hex(double vel,[01;35m[Kint idx[m[K){
+      |                                   [01;35m[K~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
