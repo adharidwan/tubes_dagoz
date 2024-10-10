@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/alyazahrarr/tubes_dagoz/src/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alyazahrarr/tubes_dagoz/src/control -DCMAKE_INSTALL_PREFIX=/home/alyazahrarr/tubes_dagoz/src/install/control
+[0.285s] -- The C compiler identification is GNU 13.2.0
+[0.644s] -- The CXX compiler identification is GNU 13.2.0
+[0.731s] -- Detecting C compiler ABI info
+[1.176s] -- Detecting C compiler ABI info - done
+[1.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.242s] -- Detecting C compile features
+[1.245s] -- Detecting C compile features - done
+[1.290s] -- Detecting CXX compiler ABI info
+[1.748s] -- Detecting CXX compiler ABI info - done
+[1.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.781s] -- Detecting CXX compile features
+[1.782s] -- Detecting CXX compile features - done
+[1.811s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.632s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.791s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.836s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.203s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.220s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.451s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.552s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.819s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.863s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.914s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.926s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[5.534s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.332s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.713s] -- Found PythonExtra: /usr/bin/python3  
+[9.926s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.081s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[10.082s]   ament_target_dependencies() the first argument must be a valid target name
+[10.083s] Call Stack (most recent call first):
+[10.083s]   CMakeLists.txt:34 (ament_target_dependencies)
+[10.084s] 
+[10.085s] [0m
+[10.085s] -- Configuring incomplete, errors occurred!
+[10.126s] Invoked command in '/home/alyazahrarr/tubes_dagoz/src/build/control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alyazahrarr/tubes_dagoz/src/control -DCMAKE_INSTALL_PREFIX=/home/alyazahrarr/tubes_dagoz/src/install/control

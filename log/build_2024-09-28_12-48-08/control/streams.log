@@ -1,0 +1,31 @@
+[0.032s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[0.145s] [ 50%] Built target keyboard_input
+[0.158s] [ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[4.284s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In constructor ‘[01m[KTranslatorNode::[01;32m[KTranslatorNode[m[K()[m[K’:
+[4.284s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:20:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTranslatorNode::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (TranslatorNode::*)(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >), TranslatorNode*, const std::_Placeholder<1>&>::type)[m[K’
+[4.284s]    20 |     timer_ = [01;31m[Kthis->create_wall_timer([m[K
+[4.284s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.284s]    21 | [01;31m[K        std::chrono::milliseconds(1000),[m[K
+[4.284s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.284s]    22 | [01;31m[K        std::bind(&TranslatorNode::cmd_vel_callback, this, std::placeholders::_1))[m[K;
+[4.284s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.284s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.285s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.285s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[4.285s]                  from [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:4[m[K:
+[4.285s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_wall_timer[m[K(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’
+[4.285s]   241 |   [01;36m[Kcreate_wall_timer[m[K(
+[4.285s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.285s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.285s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K:
+[4.285s] /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp: In substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_wall_timer[m[K(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr, bool) [35m[K[with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (TranslatorNode::*(TranslatorNode*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>][m[K[m[K’:
+[4.285s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:20:37:[m[K   required from here
+[4.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.286s]   110 | [01;31m[KNode[m[K::create_wall_timer(
+[4.286s]       | [01;31m[K^~~~[m[K
+[4.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[7.645s] gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+[7.645s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+[7.645s] gmake: *** [Makefile:146: all] Error 2
+[7.648s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8

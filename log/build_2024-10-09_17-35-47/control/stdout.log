@@ -1,0 +1,12 @@
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  7%] Built target keyboard_input
+[ 10%] [32mBuilding CXX object CMakeFiles/translate.dir/src/translate.cpp.o[0m
+[ 10%] Built target ament_cmake_python_copy_control
+[ 15%] Built target translator_node
+running egg_info
+writing control.egg-info/PKG-INFO
+writing dependency_links to control.egg-info/dependency_links.txt
+writing top-level names to control.egg-info/top_level.txt
+reading manifest file 'control.egg-info/SOURCES.txt'
+writing manifest file 'control.egg-info/SOURCES.txt'
+[ 15%] Built target ament_cmake_python_build_control_egg

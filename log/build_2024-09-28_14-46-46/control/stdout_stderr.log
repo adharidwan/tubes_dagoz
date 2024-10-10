@@ -1,0 +1,44 @@
+[ 50%] Built target keyboard_input
+[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:89:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   89 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    8 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In constructor ‘[01m[KTranslatorNode::[01;32m[KTranslatorNode[m[K()[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   18 |     [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 10, std::bind(&TranslatorNode::cmd_vel_callback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |     [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("control/locomotion", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   21 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In lambda function:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   56 |       [01;31m[Kpublisher_[m[K->publish(message);};
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   58 |     [01;31m[Kelse[m[K if (linear_x == 1){
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:62:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   62 |       [01;31m[Kpublisher_[m[K->publish(message);};
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid TranslatorNode::[01;32m[Kcmd_vel_callback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:78:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+   78 |   [01;31m[Krclcpp[m[K::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K At global scope:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:89:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   89 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

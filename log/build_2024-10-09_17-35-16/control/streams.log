@@ -1,0 +1,37 @@
+[0.024s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[0.213s] [  2%] [32mBuilding CXX object CMakeFiles/translate.dir/src/translate.cpp.o[0m
+[0.216s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.277s] [ 10%] Built target translator_node
+[0.286s] [ 10%] Built target ament_cmake_python_copy_control
+[0.289s] [ 15%] Built target keyboard_input
+[0.857s] running egg_info
+[0.885s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translate.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcontrol/msg/hardware_command.hpp: No such file or directory
+[0.885s]     3 | #include [01;31m[K"control/msg/hardware_command.hpp"[m[K  // Include the custom message
+[0.885s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.886s] compilation terminated.
+[0.901s] gmake[2]: *** [CMakeFiles/translate.dir/build.make:76: CMakeFiles/translate.dir/src/translate.cpp.o] Error 1
+[0.901s] gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/translate.dir/all] Error 2
+[0.902s] gmake[1]: *** Waiting for unfinished jobs....
+[0.911s] writing control.egg-info/PKG-INFO
+[0.911s] writing dependency_links to control.egg-info/dependency_links.txt
+[0.911s] writing top-level names to control.egg-info/top_level.txt
+[1.051s] reading manifest file 'control.egg-info/SOURCES.txt'
+[1.052s] writing manifest file 'control.egg-info/SOURCES.txt'
+[1.109s] [ 15%] Built target ament_cmake_python_build_control_egg
+[4.161s] Traceback (most recent call last):
+[4.162s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[4.162s]     sys.exit(main())
+[4.162s]              ^^^^^^
+[4.162s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[4.162s]     generate_type_hash(args.generator_arguments_file)
+[4.163s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+[4.163s]     with include_path.open('r') as include_file:
+[4.163s]          ^^^^^^^^^^^^^^^^^^^^^^
+[4.163s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[4.163s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[4.163s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.163s] FileNotFoundError: [Errno 2] No such file or directory: '/home/alyazahrarr/tubes_dagoz/build/control/rosidl_generator_type_description/control/msg/Float32.json'
+[4.232s] gmake[2]: *** [CMakeFiles/control__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/control/msg/HardwareCommand.json] Error 1
+[4.232s] gmake[1]: *** [CMakeFiles/Makefile2:273: CMakeFiles/control__rosidl_generator_type_description.dir/all] Error 2
+[4.233s] gmake: *** [Makefile:146: all] Error 2
+[4.237s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8

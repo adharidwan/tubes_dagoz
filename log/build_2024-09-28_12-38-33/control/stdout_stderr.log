@@ -1,0 +1,16 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In constructor ‘[01m[KTranslatorNode::[01;32m[KTranslatorNode[m[K()[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:22:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTranslatorNode::cmd_vel_callback()[m[K’
+   22 |         std::bind(&[01;31m[KTranslatorNode::cmd_vel_callback()[m[K, this, std::placeholders::_1));
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:26:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid TranslatorNode::[01;32m[Kcmd_vel_callback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+   26 |   void [01;36m[Kcmd_vel_callback[m[K(const geometry_msgs::msg::Twist::SharedPtr msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:26:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable keyboard_input[0m
+[ 75%] Built target keyboard_input
+gmake: *** [Makefile:146: all] Error 2

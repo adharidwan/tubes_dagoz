@@ -1,0 +1,8 @@
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcontrol/msg/hardware_command.hpp: No such file or directory
+    6 | #include [01;31m[K"control/msg/hardware_command.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/translator_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

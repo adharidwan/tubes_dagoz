@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control/msg/HardwareCommand.msg
+// generated code does not contain a copyright notice
+
+#include "control/msg/Float32.idl"
+
+module control {
+  module msg {
+    struct HardwareCommand {
+      control::msg::Float32 motor1;
+
+      control::msg::Float32 motor2;
+
+      control::msg::Float32 motor3;
+
+      control::msg::Float32 motor4;
+    };
+  };
+};

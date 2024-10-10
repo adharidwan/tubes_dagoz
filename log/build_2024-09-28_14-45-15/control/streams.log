@@ -1,0 +1,36 @@
+[0.022s] Invoking command in '/home/alyazahrarr/tubes_dagoz/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8
+[0.120s] [ 50%] Built target keyboard_input
+[0.136s] [ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[3.534s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In constructor ‘[01m[KTranslatorNode::[01;32m[KTranslatorNode[m[K()[m[K’:
+[3.534s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.534s]    18 |     [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 10, std::bind(&TranslatorNode::cmd_vel_callback, this, std::placeholders::_1));
+[3.534s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.534s]       |     [32m[Krmw_subscription_t[m[K
+[3.580s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.580s]    20 |     [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("control/locomotion", 10);
+[3.581s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.581s]       |     [32m[Krmw_publisher_t[m[K
+[3.590s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.590s]    21 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[3.590s]       |     [01;31m[K^~~~~~[m[K
+[3.591s]       |     [32m[Ktimer_t[m[K
+[3.610s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In lambda function:
+[3.610s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.610s]    56 |       [01;31m[Kpublisher_[m[K->publish(message);};
+[3.611s]       |       [01;31m[K^~~~~~~~~~[m[K
+[3.611s]       |       [32m[Krmw_publisher_t[m[K
+[3.611s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid TranslatorNode::[01;32m[Kcmd_vel_callback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.611s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:58:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kelse[m[K’
+[3.611s]    58 |     [01;31m[Kelse[m[K if (linear_x == 1){
+[3.611s]       |     [01;31m[K^~~~[m[K
+[3.615s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K At global scope:
+[3.615s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:79:3:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[3.615s]    79 |   [01;31m[Krclcpp[m[K::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+[3.615s]       |   [01;31m[K^~~~~~[m[K
+[3.616s] [01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:82:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.616s]    82 | [01;31m[K}[m[K;
+[3.616s]       | [01;31m[K^[m[K
+[6.220s] gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+[6.220s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+[6.221s] gmake: *** [Makefile:146: all] Error 2
+[6.224s] Invoked command in '/home/alyazahrarr/tubes_dagoz/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alyazahrarr/ros2_ws/install/launch_testing_examples:/home/alyazahrarr/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_service:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_publisher:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_server:/home/alyazahrarr/ros2_ws/install/examples_rclpy_minimal_action_client:/home/alyazahrarr/ros2_ws/install/examples_rclpy_guard_conditions:/home/alyazahrarr/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alyazahrarr/tubes_dagoz/build/control -- -j8 -l8

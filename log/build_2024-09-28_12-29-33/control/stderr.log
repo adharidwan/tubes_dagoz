@@ -1,0 +1,7 @@
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In constructor ‘[01m[KTranslatorNode::[01;32m[KTranslatorNode[m[K()[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:22:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   22 |         std::bind(&TranslatorNode::cmd_vel_callback([01;31m[Kconst[m[K geometry_msgs::msg::Twist::SharedPtr msg), this));
+      |                                                     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

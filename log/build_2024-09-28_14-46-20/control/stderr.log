@@ -1,0 +1,7 @@
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid TranslatorNode::[01;32m[Kcmd_vel_callback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:58:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kelse[m[K’
+   58 |     [01;31m[Kelse[m[K if (linear_x == 1){
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+[ 50%] Built target keyboard_input
+[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid TranslatorNode::[01;32m[Kcmd_vel_callback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/alyazahrarr/tubes_dagoz/src/control/src/translator_node.cpp:43:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_cmd_vel_msg_[m[K’ is not a type
+   43 |     [this]([01;31m[Klatest_cmd_vel_msg_[m[K) -> void {
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

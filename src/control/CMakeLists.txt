@@ -9,14 +9,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(can_msgs REQUIRED)
+
 # find_package(tutorial_interfaces REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-include_directories(/usr/include)
+include_directories(include)
 include_directories(include ${ncurses_INCLUDE_DIRS})
 
 add_executable(keyboard_input src/keyboard_input.cpp)
@@ -25,7 +27,7 @@ target_link_libraries(keyboard_input ncurses)
 ament_export_dependencies(rosidl_default_runtime)
 
 add_executable(translator_node src/translator_node.cpp)
-ament_target_dependencies(translator_node rclcpp geometry_msgs)
+ament_target_dependencies(translator_node rclcpp geometry_msgs can_msgs msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -43,6 +45,10 @@ install(TARGETS
   keyboard_input
   translator_node
   DESTINATION lib/${PROJECT_NAME})
+
+# install(DIRECTORY msg
+#   DESTINATION share/${PROJECT_NAME})
+
 
 # rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)
 # target_link_libraries(cmd_translate "${cpp_typesupport_target}")

@@ -8,8 +8,6 @@ public:
     TeleopNode() : Node("teleop_node")
     {
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
-        // this->initializeNcurses();
-        // this->create_timer(std::chrono::milliseconds(100), [this]() { this->timer_callback(); });
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(1000),
             std::bind(&TeleopNode::timer_callback, this));
@@ -70,7 +68,6 @@ private:
                 break;
         }
         
-        // RCLCPP_INFO(this->get_logger(), "Publishing linear.x: %.2f, angular.z: %.2f", msg.linear.x, msg.angular.z);
         publisher_->publish(msg);
     }
 
