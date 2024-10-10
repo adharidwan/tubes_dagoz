@@ -48,10 +48,10 @@ private:
                     updateVelocity(-1.0, 0.0);
                     break;
                 case 'a':
-                    updateVelocity(0.0, 1.0);
+                    updateVelocity(0.0, -1.0);
                     break;
                 case 'd':
-                    updateVelocity(0.0, -1.0);
+                    updateVelocity(0.0, 1.0);
                     break;
                 case 'r':
                     updateVelocity(0.0, 1.0);

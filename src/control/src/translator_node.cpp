@@ -3,6 +3,15 @@
 #include "can_msgs/msg/frame.hpp"
 #include <iostream>
 #include <cstdint>
+#include <cmath>
+
+#define motor1_angle 225.00
+#define motor2_angle 135.00
+#define motor3_angle 315.00
+#define motor4_angle 45.00
+#define TO_RADIANS(degrees) ((degrees) * (M_PI / 180.0))
+
+
 
 union FloatBytes {
     float floatValue;
@@ -30,48 +39,48 @@ private:
         double linear_x = msg->linear.x;
         double linear_y = msg->linear.y;
 
-        RCLCPP_INFO(this->get_logger(), "Linear Velocity X: %.2f, Linear Velocity Y: %.2f", linear_x, linear_y);
+        // RCLCPP_INFO(this->get_logger(), "Linear Velocity X: %.2f, Linear Velocity Y: %.2f", linear_x, linear_y);
 
         twist_to_vel(linear_x, linear_y);
     }
 
     void twist_to_vel(double linear_x, double linear_y) const
     { 
-
-        float vel_motor1 = linear_x;
-        float vel_motor2 = linear_y;
-        float vel_motor3 = linear_x;
-        float vel_motor4 = linear_y;
-
         auto can_msg1 = can_msgs::msg::Frame();
         auto can_msg2 = can_msgs::msg::Frame();
-
+        double scalingFactor = 1.0/cos(TO_RADIANS(motor4_angle));
         can_msg1.id = 0x123;
         can_msg2.id = 0x124;
         can_msg1.dlc = 8;
-        can_msg2.dlc = 8;    
+        can_msg2.dlc = 8;
+        
+        double motor1_vel = (linear_x * sin(TO_RADIANS(motor1_angle))) + (linear_y * cos(TO_RADIANS(motor1_angle)));
+        double motor2_vel = (linear_x * sin(TO_RADIANS(motor2_angle))) + (linear_y * cos(TO_RADIANS(motor2_angle)));
+        double motor3_vel = (linear_x * sin(TO_RADIANS(motor3_angle))) + (linear_y * cos(TO_RADIANS(motor3_angle)));
+        double motor4_vel = (linear_x * sin(TO_RADIANS(motor4_angle))) + (linear_y * cos(TO_RADIANS(motor4_angle)));
+        motor1_vel = motor1_vel / scalingFactor * 2;
+        motor2_vel = motor2_vel / scalingFactor * 2;
+        motor3_vel = motor3_vel / scalingFactor * 2;
+        motor4_vel = motor4_vel / scalingFactor * 2;
+        RCLCPP_INFO(this->get_logger(), "Motor1 Velocity : %.2f, Motor2 Velocity : %.2f, Motor3 Velocity : %.2f, Motor4 Velocity : %.2f", motor1_vel, motor2_vel, motor3_vel, motor4_vel);
 
-        can_msg1.data[0] = vel_motor1;
-        can_msg1.data[1] = vel_motor2;
-        can_msg1.data[2] = vel_motor3;
-        can_msg1.data[3] = vel_motor4;
 
         uint8_t motor1[4];
-        float_to_hex(-23.75,motor1);
+        float_to_hex(motor1_vel,motor1);
         can_msg1.data[0] = motor1[0];
         can_msg1.data[1] = motor1[1];
         can_msg1.data[2] = motor1[2];
         can_msg1.data[3] = motor1[3];
         
         uint8_t motor2[4];
-        float_to_hex(-21.5,motor2);
+        float_to_hex(motor2_vel,motor2);
         can_msg1.data[4] = motor2[0];
         can_msg1.data[5] = motor2[1];
         can_msg1.data[6] = motor2[2];
         can_msg1.data[7] = motor2[3];
 
         uint8_t motor3[4];
-        float_to_hex(-17.5,motor3);
+        float_to_hex(motor3_vel,motor3);
         can_msg2.data[0] = motor3[0];
         can_msg2.data[1] = motor3[1];
         can_msg2.data[2] = motor3[2];
@@ -79,7 +88,7 @@ private:
 
 
         uint8_t motor4[4];
-        float_to_hex(-12.5,motor4);
+        float_to_hex(motor4_vel,motor4);
         can_msg2.data[4] = motor4[0];
         can_msg2.data[5] = motor4[1];
         can_msg2.data[6] = motor4[2];

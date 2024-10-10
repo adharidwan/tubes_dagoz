@@ -1,0 +1,22 @@
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_vel[m[K(double, double) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:55:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_motor1[m[K’ was not declared in this scope
+   55 |         can_msg1.data[0] = [01;31m[Kvel_motor1[m[K;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_motor2[m[K’ was not declared in this scope
+   56 |         can_msg1.data[1] = [01;31m[Kvel_motor2[m[K;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:57:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_motor3[m[K’ was not declared in this scope
+   57 |         can_msg1.data[2] = [01;31m[Kvel_motor3[m[K;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:58:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_motor4[m[K’ was not declared in this scope
+   58 |         can_msg1.data[3] = [01;31m[Kvel_motor4[m[K;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:45:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 |     void twist_to_vel([01;35m[Kdouble linear_x[m[K, double linear_y) const
+      |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:45:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 |     void twist_to_vel(double linear_x, [01;35m[Kdouble linear_y[m[K) const
+      |                                        [01;35m[K~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

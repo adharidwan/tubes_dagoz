@@ -1,0 +1,7 @@
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_vel[m[K(double, double) const[m[K’:
+[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:55:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor1[m[K’ was not declared in this scope
+   55 |         float_to_hex(-23.75,[01;31m[Kmotor1[m[K);
+      |                             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
