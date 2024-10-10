@@ -8,7 +8,7 @@
 class KeyboardInputNode : public rclcpp::Node
 {
 public:
-    KeyboardInputNode() : Node("keyboard_input_node"), velocity_duration_(1.0)
+    KeyboardInputNode() : Node("keyboard_input_node"), velocity_duration_(2.0)
     {
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
@@ -52,10 +52,6 @@ private:
                     break;
                 case 'd':
                     updateVelocity(0.0, 1.0);
-                    break;
-                case 'r':
-                    updateVelocity(0.0, 1.0);
-                    // tuning untuk satu putaran berapa detik
                     break;
                 case 'q':
                     RCLCPP_INFO(this->get_logger(), "Exiting...");

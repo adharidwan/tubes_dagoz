@@ -62,6 +62,9 @@ private:
         motor2_vel = motor2_vel / scalingFactor * 2;
         motor3_vel = motor3_vel / scalingFactor * 2;
         motor4_vel = motor4_vel / scalingFactor * 2;
+
+        if(motor1_vel == -0.00) motor1_vel = 0.00;
+        
         RCLCPP_INFO(this->get_logger(), "Motor1 Velocity : %.2f, Motor2 Velocity : %.2f, Motor3 Velocity : %.2f, Motor4 Velocity : %.2f", motor1_vel, motor2_vel, motor3_vel, motor4_vel);
 
 
