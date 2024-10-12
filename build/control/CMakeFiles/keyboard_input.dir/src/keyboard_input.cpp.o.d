@@ -695,4 +695,21 @@ CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /usr/include/curses.h /usr/include/ncurses_dll.h /usr/include/unctrl.h \
- /usr/include/curses.h
+ /usr/include/curses.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
