@@ -1,1 +1,1 @@
-can_msgs:geometry_msgs:msgs:rclcpp:ros2_socketcan
+can_msgs:geometry_msgs:msgs:rclcpp:ros2_socketcan:ros2_socketcan_msgs

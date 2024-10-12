@@ -1,5 +1,6 @@
 /home/alyazahrarr/tubesss/tubes_dagoz/install/control/lib/control/keyboard_input
-/home/alyazahrarr/tubesss/tubes_dagoz/install/control/lib/control/translator_node
+/home/alyazahrarr/tubesss/tubes_dagoz/install/control/lib/control/translator_locomotion
+/home/alyazahrarr/tubesss/tubes_dagoz/install/control/lib/control/translator_expanding
 /home/alyazahrarr/tubesss/tubes_dagoz/install/control/share/ament_index/resource_index/package_run_dependencies/control
 /home/alyazahrarr/tubesss/tubes_dagoz/install/control/share/ament_index/resource_index/parent_prefix_path/control
 /home/alyazahrarr/tubesss/tubes_dagoz/install/control/share/control/environment/ament_prefix_path.sh

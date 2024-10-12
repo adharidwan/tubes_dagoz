@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
-  "CMakeFiles/translator_node.dir/src/translator_node.cpp.o.d"
+  "CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o"
+  "CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o.d"
   "translator_node"
   "translator_node.pdb"
 )

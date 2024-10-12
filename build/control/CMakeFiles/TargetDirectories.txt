@@ -1,7 +1,8 @@
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/uninstall.dir
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/control_uninstall.dir
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/keyboard_input.dir
-/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/translator_node.dir
+/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/translator_locomotion.dir
+/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/translator_expanding.dir
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/test.dir
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/edit_cache.dir
 /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/rebuild_cache.dir

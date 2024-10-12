@@ -211,17 +211,30 @@ keyboard_input/fast:
 .PHONY : keyboard_input/fast
 
 #=============================================================================
-# Target rules for targets named translator_node
+# Target rules for targets named translator_locomotion
 
 # Build rule for target.
-translator_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 translator_node
-.PHONY : translator_node
+translator_locomotion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 translator_locomotion
+.PHONY : translator_locomotion
 
 # fast build rule for target.
-translator_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/build
-.PHONY : translator_node/fast
+translator_locomotion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_locomotion.dir/build.make CMakeFiles/translator_locomotion.dir/build
+.PHONY : translator_locomotion/fast
+
+#=============================================================================
+# Target rules for targets named translator_expanding
+
+# Build rule for target.
+translator_expanding: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 translator_expanding
+.PHONY : translator_expanding
+
+# fast build rule for target.
+translator_expanding/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_expanding.dir/build.make CMakeFiles/translator_expanding.dir/build
+.PHONY : translator_expanding/fast
 
 src/keyboard_input.o: src/keyboard_input.cpp.o
 .PHONY : src/keyboard_input.o
@@ -247,29 +260,53 @@ src/keyboard_input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.s
 .PHONY : src/keyboard_input.cpp.s
 
-src/translator_node.o: src/translator_node.cpp.o
-.PHONY : src/translator_node.o
+src/translator_expanding.o: src/translator_expanding.cpp.o
+.PHONY : src/translator_expanding.o
 
 # target to build an object file
-src/translator_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.o
-.PHONY : src/translator_node.cpp.o
+src/translator_expanding.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_expanding.dir/build.make CMakeFiles/translator_expanding.dir/src/translator_expanding.cpp.o
+.PHONY : src/translator_expanding.cpp.o
 
-src/translator_node.i: src/translator_node.cpp.i
-.PHONY : src/translator_node.i
+src/translator_expanding.i: src/translator_expanding.cpp.i
+.PHONY : src/translator_expanding.i
 
 # target to preprocess a source file
-src/translator_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.i
-.PHONY : src/translator_node.cpp.i
+src/translator_expanding.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_expanding.dir/build.make CMakeFiles/translator_expanding.dir/src/translator_expanding.cpp.i
+.PHONY : src/translator_expanding.cpp.i
 
-src/translator_node.s: src/translator_node.cpp.s
-.PHONY : src/translator_node.s
+src/translator_expanding.s: src/translator_expanding.cpp.s
+.PHONY : src/translator_expanding.s
 
 # target to generate assembly for a file
-src/translator_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/src/translator_node.cpp.s
-.PHONY : src/translator_node.cpp.s
+src/translator_expanding.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_expanding.dir/build.make CMakeFiles/translator_expanding.dir/src/translator_expanding.cpp.s
+.PHONY : src/translator_expanding.cpp.s
+
+src/translator_locomotion.o: src/translator_locomotion.cpp.o
+.PHONY : src/translator_locomotion.o
+
+# target to build an object file
+src/translator_locomotion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_locomotion.dir/build.make CMakeFiles/translator_locomotion.dir/src/translator_locomotion.cpp.o
+.PHONY : src/translator_locomotion.cpp.o
+
+src/translator_locomotion.i: src/translator_locomotion.cpp.i
+.PHONY : src/translator_locomotion.i
+
+# target to preprocess a source file
+src/translator_locomotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_locomotion.dir/build.make CMakeFiles/translator_locomotion.dir/src/translator_locomotion.cpp.i
+.PHONY : src/translator_locomotion.cpp.i
+
+src/translator_locomotion.s: src/translator_locomotion.cpp.s
+.PHONY : src/translator_locomotion.s
+
+# target to generate assembly for a file
+src/translator_locomotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_locomotion.dir/build.make CMakeFiles/translator_locomotion.dir/src/translator_locomotion.cpp.s
+.PHONY : src/translator_locomotion.cpp.s
 
 # Help Target
 help:
@@ -287,13 +324,17 @@ help:
 	@echo "... control_uninstall"
 	@echo "... uninstall"
 	@echo "... keyboard_input"
-	@echo "... translator_node"
+	@echo "... translator_expanding"
+	@echo "... translator_locomotion"
 	@echo "... src/keyboard_input.o"
 	@echo "... src/keyboard_input.i"
 	@echo "... src/keyboard_input.s"
-	@echo "... src/translator_node.o"
-	@echo "... src/translator_node.i"
-	@echo "... src/translator_node.s"
+	@echo "... src/translator_expanding.o"
+	@echo "... src/translator_expanding.i"
+	@echo "... src/translator_expanding.s"
+	@echo "... src/translator_locomotion.o"
+	@echo "... src/translator_locomotion.i"
+	@echo "... src/translator_locomotion.s"
 .PHONY : help
 
 

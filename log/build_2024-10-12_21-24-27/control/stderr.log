@@ -1,0 +1,7 @@
+[01m[K/home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/keyboard_input.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/keyboard_input.cpp:162:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<KeyboardInputNode, __gnu_cxx::_S_atomic, false, false>::element_type = class KeyboardInputNode[m[K’ {aka ‘[01m[Kclass KeyboardInputNode[m[K’} has no member named ‘[01m[Kprocess_input[m[K’
+  162 |         node->[01;31m[Kprocess_input[m[K();
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/keyboard_input.dir/build.make:76: CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/keyboard_input.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

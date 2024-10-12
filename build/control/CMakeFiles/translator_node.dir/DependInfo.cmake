@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp" "CMakeFiles/translator_node.dir/src/translator_node.cpp.o" "gcc" "CMakeFiles/translator_node.dir/src/translator_node.cpp.o.d"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_locomotion.cpp" "CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o" "gcc" "CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

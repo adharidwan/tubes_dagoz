@@ -69,28 +69,28 @@ include CMakeFiles/translator_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/translator_node.dir/flags.make
 
-CMakeFiles/translator_node.dir/src/translator_node.cpp.o: CMakeFiles/translator_node.dir/flags.make
-CMakeFiles/translator_node.dir/src/translator_node.cpp.o: /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp
-CMakeFiles/translator_node.dir/src/translator_node.cpp.o: CMakeFiles/translator_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/translator_node.dir/src/translator_node.cpp.o -MF CMakeFiles/translator_node.dir/src/translator_node.cpp.o.d -o CMakeFiles/translator_node.dir/src/translator_node.cpp.o -c /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp
+CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o: CMakeFiles/translator_node.dir/flags.make
+CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o: /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_locomotion.cpp
+CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o: CMakeFiles/translator_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o -MF CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o.d -o CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o -c /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_locomotion.cpp
 
-CMakeFiles/translator_node.dir/src/translator_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/translator_node.dir/src/translator_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp > CMakeFiles/translator_node.dir/src/translator_node.cpp.i
+CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_locomotion.cpp > CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.i
 
-CMakeFiles/translator_node.dir/src/translator_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/translator_node.dir/src/translator_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp -o CMakeFiles/translator_node.dir/src/translator_node.cpp.s
+CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_locomotion.cpp -o CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.s
 
 # Object files for target translator_node
 translator_node_OBJECTS = \
-"CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
+"CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o"
 
 # External object files for target translator_node
 translator_node_EXTERNAL_OBJECTS =
 
-translator_node: CMakeFiles/translator_node.dir/src/translator_node.cpp.o
+translator_node: CMakeFiles/translator_node.dir/src/translator_locomotion.cpp.o
 translator_node: CMakeFiles/translator_node.dir/build.make
 translator_node: /opt/ros/jazzy/lib/librclcpp.so
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
