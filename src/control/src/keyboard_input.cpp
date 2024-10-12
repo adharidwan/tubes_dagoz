@@ -8,7 +8,7 @@
 class KeyboardInputNode : public rclcpp::Node
 {
 public:
-    KeyboardInputNode() : Node("keyboard_input_node"), velocity_duration_(2.0)
+    KeyboardInputNode() : Node("keyboard_input_node"), velocity_duration_(3.0)
     {
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
@@ -73,8 +73,7 @@ private:
         velocity_msg_.linear.x = linearx;
         velocity_msg_.linear.y = lineary;
         publisher_->publish(velocity_msg_);
-        RCLCPP_INFO(this->get_logger(), "Published linear velocity x: %.2f, linear velocity y: %.2f",
-                    velocity_msg_.linear.x, velocity_msg_.linear.y);
+        // RCLCPP_INFO(this->get_logger(), "Published linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
     }
 
     void resetVelocity()
@@ -83,7 +82,7 @@ private:
         velocity_msg_.linear.x = 0.0;
         velocity_msg_.linear.y = 0.0;
         publisher_->publish(velocity_msg_);
-        RCLCPP_INFO(this->get_logger(), "Resetted back after 1s = linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
+        // RCLCPP_INFO(this->get_logger(), "Resetted back after 1s = linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
     }
 
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
