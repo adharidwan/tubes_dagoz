@@ -1,9 +1,9 @@
 {
   "package_name": "msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/msgs/rosidl_generator_cpp/msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_cpp/msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -25,9 +25,9 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
   ],
   "type_description_tuples": [
-    "msg/HardwareCommand.idl:/home/adha/belajar/ws1/build/msgs/rosidl_generator_type_description/msgs/msg/HardwareCommand.json"
+    "msg/HardwareCommand.idl:/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_type_description/msgs/msg/HardwareCommand.json"
   ]
 }

@@ -1,8 +1,8 @@
-# Install script for directory: /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan
+# Install script for directory: /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adha/belajar/ws1/install/ros2_socketcan")
+  set(CMAKE_INSTALL_PREFIX "/home/alyazahrarr/tubesss/tubes_dagoz/install/ros2_socketcan")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_receiver_node_exe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan" TYPE EXECUTABLE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/socket_can_receiver_node_exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan" TYPE EXECUTABLE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/socket_can_receiver_node_exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_receiver_node_exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_receiver_node_exe")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/adha/belajar/ws1/build/ros2_socketcan/CMakeFiles/socket_can_receiver_node_exe.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/CMakeFiles/socket_can_receiver_node_exe.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_sender_node_exe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan" TYPE EXECUTABLE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/socket_can_sender_node_exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan" TYPE EXECUTABLE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/socket_can_sender_node_exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_sender_node_exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_socketcan/socket_can_sender_node_exe")
     file(RPATH_CHANGE
@@ -87,11 +87,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/adha/belajar/ws1/build/ros2_socketcan/CMakeFiles/socket_can_sender_node_exe.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/CMakeFiles/socket_can_sender_node_exe.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -99,7 +99,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -109,12 +109,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_socketcan.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/adha/belajar/ws1/build/ros2_socketcan/libros2_socketcan.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/libros2_socketcan.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_socketcan.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_socketcan.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_socketcan.so"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/ros2_socketcan_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_socketcan.so")
@@ -132,12 +132,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_receiver_node.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/adha/belajar/ws1/build/ros2_socketcan/libsocket_can_receiver_node.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/libsocket_can_receiver_node.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_receiver_node.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_receiver_node.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_receiver_node.so"
-         OLD_RPATH "/home/adha/belajar/ws1/build/ros2_socketcan:/opt/ros/jazzy/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:"
+         OLD_RPATH "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan:/opt/ros/jazzy/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/ros2_socketcan_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_receiver_node.so")
@@ -155,12 +155,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_sender_node.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/adha/belajar/ws1/build/ros2_socketcan/libsocket_can_sender_node.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/libsocket_can_sender_node.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_sender_node.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_sender_node.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_sender_node.so"
-         OLD_RPATH "/home/adha/belajar/ws1/build/ros2_socketcan:/opt/ros/jazzy/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/home/adha/belajar/ws1/install/ros2_socketcan_msgs/lib:"
+         OLD_RPATH "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan:/opt/ros/jazzy/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/ros2_socketcan_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket_can_sender_node.so")
@@ -172,15 +172,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE DIRECTORY FILES "/home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE DIRECTORY FILES "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_socketcan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_socketcan")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_socketcan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_socketcan")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -188,7 +188,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -196,63 +196,63 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/environment" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/packages/ros2_socketcan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/packages/ros2_socketcan")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/ros2_socketcan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/ros2_socketcan")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan/cmake" TYPE FILE FILES
-    "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_core/ros2_socketcanConfig.cmake"
-    "/home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_core/ros2_socketcanConfig-version.cmake"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_core/ros2_socketcanConfig.cmake"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_core/ros2_socketcanConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_socketcan" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/adha/belajar/ws1/build/ros2_socketcan/gtest/cmake_install.cmake")
+  include("/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/gtest/cmake_install.cmake")
 
 endif()
 
@@ -264,5 +264,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adha/belajar/ws1/build/ros2_socketcan/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

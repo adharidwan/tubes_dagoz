@@ -1,12 +1,12 @@
 {
   "package_name": "can_msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_c/can_msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_c/can_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/can_msgs/rosidl_adapter/can_msgs:msg/Frame.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_adapter/can_msgs:msg/Frame.idl"
   ],
   "ros_interface_files": [
-    "/home/adha/belajar/ws1/src/ros2_socketcan/can_msgs/msg/Frame.msg"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/can_msgs/msg/Frame.msg"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -62,7 +62,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/adha/belajar/ws1/build/can_msgs/rosidl_adapter/can_msgs/msg/Frame.idl",
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_adapter/can_msgs/msg/Frame.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -97,6 +97,6 @@
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/Frame.idl:/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_type_description/can_msgs/msg/Frame.json"
+    "msg/Frame.idl:/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_type_description/can_msgs/msg/Frame.json"
   ]
 }

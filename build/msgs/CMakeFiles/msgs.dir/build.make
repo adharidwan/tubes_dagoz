@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/msgs
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/msgs
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs
 
 # Utility rule file for msgs.
 
@@ -66,7 +66,7 @@ include CMakeFiles/msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/msgs.dir/progress.make
 
-CMakeFiles/msgs: /home/adha/belajar/ws1/src/msgs/msg/HardwareCommand.msg
+CMakeFiles/msgs: /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs/msg/HardwareCommand.msg
 
 msgs: CMakeFiles/msgs
 msgs: CMakeFiles/msgs.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/msgs.dir/clean:
 .PHONY : CMakeFiles/msgs.dir/clean
 
 CMakeFiles/msgs.dir/depend:
-	cd /home/adha/belajar/ws1/build/msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/msgs /home/adha/belajar/ws1/src/msgs /home/adha/belajar/ws1/build/msgs /home/adha/belajar/ws1/build/msgs /home/adha/belajar/ws1/build/msgs/CMakeFiles/msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/CMakeFiles/msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/msgs.dir/depend
 

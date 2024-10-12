@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/control
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/control
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/control
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles /home/adha/belajar/ws1/build/control//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles /home/alyazahrarr/tubesss/tubes_dagoz/build/control//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

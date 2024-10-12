@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/msgs
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/msgs
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs
 
 # Utility rule file for ament_cmake_python_build_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_msgs_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_msgs_egg:
-	cd /home/adha/belajar/ws1/build/msgs/ament_cmake_python/msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/ament_cmake_python/msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_msgs_egg: CMakeFiles/ament_cmake_python_build_msgs_egg
 ament_cmake_python_build_msgs_egg: CMakeFiles/ament_cmake_python_build_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_msgs_egg.dir/depend:
-	cd /home/adha/belajar/ws1/build/msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/msgs /home/adha/belajar/ws1/src/msgs /home/adha/belajar/ws1/build/msgs /home/adha/belajar/ws1/build/msgs /home/adha/belajar/ws1/build/msgs/CMakeFiles/ament_cmake_python_build_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs /home/alyazahrarr/tubesss/tubes_dagoz/src/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/CMakeFiles/ament_cmake_python_build_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_msgs_egg.dir/depend
 

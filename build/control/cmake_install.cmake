@@ -1,8 +1,8 @@
-# Install script for directory: /home/adha/belajar/ws1/src/control
+# Install script for directory: /home/alyazahrarr/tubesss/tubes_dagoz/src/control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adha/belajar/ws1/install/control")
+  set(CMAKE_INSTALL_PREFIX "/home/alyazahrarr/tubesss/tubes_dagoz/install/control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/keyboard_input"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/control" TYPE EXECUTABLE FILES "/home/adha/belajar/ws1/build/control/keyboard_input")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/control" TYPE EXECUTABLE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/keyboard_input")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/keyboard_input" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/keyboard_input")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/keyboard_input"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/adha/belajar/ws1/install/msgs/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/keyboard_input")
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/adha/belajar/ws1/build/control/CMakeFiles/keyboard_input.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/keyboard_input.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,12 +73,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/translator_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/control" TYPE EXECUTABLE FILES "/home/adha/belajar/ws1/build/control/translator_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/control" TYPE EXECUTABLE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/translator_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/translator_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/translator_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/translator_node"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/adha/belajar/ws1/install/can_msgs/lib:/home/adha/belajar/ws1/install/msgs/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib:/home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/control/translator_node")
@@ -87,15 +87,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/adha/belajar/ws1/build/control/CMakeFiles/translator_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/translator_node.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/control")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/control")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,7 +103,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/environment" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/environment" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,42 +111,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/environment" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/environment" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/adha/belajar/ws1/build/control/ament_cmake_index/share/ament_index/resource_index/packages/control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_index/share/ament_index/resource_index/packages/control")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/cmake" TYPE FILE FILES
-    "/home/adha/belajar/ws1/build/control/ament_cmake_core/controlConfig.cmake"
-    "/home/adha/belajar/ws1/build/control/ament_cmake_core/controlConfig-version.cmake"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_core/controlConfig.cmake"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/ament_cmake_core/controlConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/adha/belajar/ws1/src/control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/home/alyazahrarr/tubesss/tubes_dagoz/src/control/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -157,5 +157,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adha/belajar/ws1/build/control/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alyazahrarr/tubesss/tubes_dagoz/build/control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

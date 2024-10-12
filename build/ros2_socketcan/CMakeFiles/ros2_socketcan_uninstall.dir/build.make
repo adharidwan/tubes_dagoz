@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/ros2_socketcan
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan
 
 # Utility rule file for ros2_socketcan_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros2_socketcan_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros2_socketcan_uninstall.dir/progress.make
 
 CMakeFiles/ros2_socketcan_uninstall:
-	/usr/bin/cmake -P /home/adha/belajar/ws1/build/ros2_socketcan/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros2_socketcan_uninstall: CMakeFiles/ros2_socketcan_uninstall
 ros2_socketcan_uninstall: CMakeFiles/ros2_socketcan_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros2_socketcan_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_socketcan_uninstall.dir/clean
 
 CMakeFiles/ros2_socketcan_uninstall.dir/depend:
-	cd /home/adha/belajar/ws1/build/ros2_socketcan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan/CMakeFiles/ros2_socketcan_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/CMakeFiles/ros2_socketcan_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ros2_socketcan_uninstall.dir/depend
 

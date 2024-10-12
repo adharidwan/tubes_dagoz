@@ -1,8 +1,8 @@
-# Install script for directory: /home/adha/belajar/ws1/build/can_msgs/can_msgs__py
+# Install script for directory: /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/can_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adha/belajar/ws1/install/can_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

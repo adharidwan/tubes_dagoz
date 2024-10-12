@@ -1,5 +1,5 @@
 CMakeFiles/translator_node.dir/src/translator_node.cpp.o: \
- /home/adha/belajar/ws1/src/control/src/translator_node.cpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
@@ -694,11 +694,11 @@ CMakeFiles/translator_node.dir/src/translator_node.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/frame.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/frame.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.hpp \
- /home/adha/belajar/ws1/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

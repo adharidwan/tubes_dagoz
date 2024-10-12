@@ -1,9 +1,9 @@
 {
   "package_name": "msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
   ]
 }

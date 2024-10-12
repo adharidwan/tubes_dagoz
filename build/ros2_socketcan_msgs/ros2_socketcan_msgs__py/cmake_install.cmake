@@ -1,8 +1,8 @@
-# Install script for directory: /home/adha/belajar/ws1/build/ros2_socketcan_msgs/ros2_socketcan_msgs__py
+# Install script for directory: /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/ros2_socketcan_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adha/belajar/ws1/install/ros2_socketcan_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/alyazahrarr/tubesss/tubes_dagoz/install/ros2_socketcan_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

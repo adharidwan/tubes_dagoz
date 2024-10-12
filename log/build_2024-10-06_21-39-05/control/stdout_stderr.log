@@ -1,9 +1,0 @@
-[ 50%] Built target keyboard_input
-[ 75%] [32mBuilding CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o[0m
-[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:[m[K In member function ‘[01m[Kvoid VelocitySubscriber::[01;32m[Ktwist_to_pwm[m[K(double, double) const[m[K’:
-[01m[K/home/adha/belajar/ws1/src/control/src/translator_node.cpp:42:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct can_msgs::msg::Frame_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klen[m[K’
-   42 |         can_msg.[01;31m[Klen[m[K = 8;
-      |                 [01;31m[K^~~[m[K
-gmake[2]: *** [CMakeFiles/translator_node.dir/build.make:76: CMakeFiles/translator_node.dir/src/translator_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/translator_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

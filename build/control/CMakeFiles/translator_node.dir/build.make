@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/control
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/control
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/translator_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/translator_node.dir/progress.make
 include CMakeFiles/translator_node.dir/flags.make
 
 CMakeFiles/translator_node.dir/src/translator_node.cpp.o: CMakeFiles/translator_node.dir/flags.make
-CMakeFiles/translator_node.dir/src/translator_node.cpp.o: /home/adha/belajar/ws1/src/control/src/translator_node.cpp
+CMakeFiles/translator_node.dir/src/translator_node.cpp.o: /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp
 CMakeFiles/translator_node.dir/src/translator_node.cpp.o: CMakeFiles/translator_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/translator_node.dir/src/translator_node.cpp.o -MF CMakeFiles/translator_node.dir/src/translator_node.cpp.o.d -o CMakeFiles/translator_node.dir/src/translator_node.cpp.o -c /home/adha/belajar/ws1/src/control/src/translator_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/translator_node.dir/src/translator_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/translator_node.dir/src/translator_node.cpp.o -MF CMakeFiles/translator_node.dir/src/translator_node.cpp.o.d -o CMakeFiles/translator_node.dir/src/translator_node.cpp.o -c /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp
 
 CMakeFiles/translator_node.dir/src/translator_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/translator_node.dir/src/translator_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adha/belajar/ws1/src/control/src/translator_node.cpp > CMakeFiles/translator_node.dir/src/translator_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp > CMakeFiles/translator_node.dir/src/translator_node.cpp.i
 
 CMakeFiles/translator_node.dir/src/translator_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/translator_node.dir/src/translator_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adha/belajar/ws1/src/control/src/translator_node.cpp -o CMakeFiles/translator_node.dir/src/translator_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/translator_node.cpp -o CMakeFiles/translator_node.dir/src/translator_node.cpp.s
 
 # Object files for target translator_node
 translator_node_OBJECTS = \
@@ -99,18 +99,18 @@ translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtp
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_c.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_cpp.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_cpp.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_generator_py.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_c.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_cpp.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_cpp.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_generator_py.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_generator_py.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_fastrtps_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_introspection_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_cpp.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_generator_py.so
 translator_node: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 translator_node: /opt/ros/jazzy/lib/librcl.so
 translator_node: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -158,8 +158,8 @@ translator_node: /opt/ros/jazzy/lib/libtracetools.so
 translator_node: /opt/ros/jazzy/lib/librcl_logging_interface.so
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 translator_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_c.so
-translator_node: /home/adha/belajar/ws1/install/can_msgs/lib/libcan_msgs__rosidl_generator_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/can_msgs/lib/libcan_msgs__rosidl_generator_c.so
 translator_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 translator_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 translator_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -179,18 +179,18 @@ translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 translator_node: /opt/ros/jazzy/lib/librmw.so
 translator_node: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-translator_node: /opt/ros/jazzy/lib/libfastcdr.so.2.2.4
+translator_node: /opt/ros/jazzy/lib/libfastcdr.so.2.2.2
 translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_typesupport_c.so
-translator_node: /home/adha/belajar/ws1/install/msgs/lib/libmsgs__rosidl_generator_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_typesupport_c.so
+translator_node: /home/alyazahrarr/tubesss/tubes_dagoz/install/msgs/lib/libmsgs__rosidl_generator_c.so
 translator_node: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 translator_node: /opt/ros/jazzy/lib/librcpputils.so
 translator_node: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 translator_node: /opt/ros/jazzy/lib/librcutils.so
 translator_node: CMakeFiles/translator_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable translator_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable translator_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/translator_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/translator_node.dir/clean:
 .PHONY : CMakeFiles/translator_node.dir/clean
 
 CMakeFiles/translator_node.dir/depend:
-	cd /home/adha/belajar/ws1/build/control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/control /home/adha/belajar/ws1/src/control /home/adha/belajar/ws1/build/control /home/adha/belajar/ws1/build/control /home/adha/belajar/ws1/build/control/CMakeFiles/translator_node.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/control /home/alyazahrarr/tubesss/tubes_dagoz/src/control /home/alyazahrarr/tubesss/tubes_dagoz/build/control /home/alyazahrarr/tubesss/tubes_dagoz/build/control /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles/translator_node.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/translator_node.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o: \
- /home/adha/belajar/ws1/src/control/src/keyboard_input.cpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/keyboard_input.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \

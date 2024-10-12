@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/jazzy/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/adha/belajar/ws1/build/ros2_socketcan")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -1,9 +1,9 @@
 {
   "package_name": "msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/msgs/rosidl_typesupport_introspection_cpp/msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_typesupport_introspection_cpp/msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs:msg/HardwareCommand.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/adha/belajar/ws1/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_adapter/msgs/msg/HardwareCommand.idl"
   ]
 }

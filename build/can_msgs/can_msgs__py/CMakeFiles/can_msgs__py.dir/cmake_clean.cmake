@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_c.c"
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_introspection_c.c"
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/msg/__init__.py"
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/msg/_frame.py"
-  "/home/adha/belajar/ws1/build/can_msgs/rosidl_generator_py/can_msgs/msg/_frame_s.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/msg/__init__.py"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/msg/_frame.py"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_generator_py/can_msgs/msg/_frame_s.c"
   "CMakeFiles/can_msgs__py"
 )
 

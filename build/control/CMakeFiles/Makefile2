@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/control
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/control
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/control
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/translator_node.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/control_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/control_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_uninstall.dir/build.make CMakeFiles/control_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_uninstall.dir/build.make CMakeFiles/control_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num= "Built target control_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num= "Built target control_uninstall"
 .PHONY : CMakeFiles/control_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/control_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/control_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 .PHONY : CMakeFiles/control_uninstall.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/control_uninstall.dir/clean:
 CMakeFiles/keyboard_input.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num=1,2 "Built target keyboard_input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=1,2 "Built target keyboard_input"
 .PHONY : CMakeFiles/keyboard_input.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/keyboard_input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/keyboard_input.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 .PHONY : CMakeFiles/keyboard_input.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/keyboard_input.dir/clean:
 CMakeFiles/translator_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/translator_node.dir/build.make CMakeFiles/translator_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adha/belajar/ws1/build/control/CMakeFiles --progress-num=3,4 "Built target translator_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles --progress-num=3,4 "Built target translator_node"
 .PHONY : CMakeFiles/translator_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/translator_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/translator_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/control/CMakeFiles 0
 .PHONY : CMakeFiles/translator_node.dir/rule
 
 # Convenience name for target.

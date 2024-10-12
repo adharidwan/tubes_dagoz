@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adha/belajar/ws1/src/control/src/keyboard_input.cpp" "CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o" "gcc" "CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o.d"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/src/control/src/keyboard_input.cpp" "CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o" "gcc" "CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

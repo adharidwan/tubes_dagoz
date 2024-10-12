@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/ros2_socketcan/can_msgs
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/can_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/can_msgs
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/can_msgs/CMakeFiles /home/adha/belajar/ws1/build/can_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/CMakeFiles /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adha/belajar/ws1/build/can_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ can_msgs__py: cmake_check_build_system
 
 # fast build rule for target.
 can_msgs__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/adha/belajar/ws1/build/can_msgs/can_msgs__py/CMakeFiles/can_msgs__py.dir/build.make /home/adha/belajar/ws1/build/can_msgs/can_msgs__py/CMakeFiles/can_msgs__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/can_msgs__py/CMakeFiles/can_msgs__py.dir/build.make /home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/can_msgs__py/CMakeFiles/can_msgs__py.dir/build
 .PHONY : can_msgs__py/fast
 
 rosidl_generator_c/can_msgs/msg/detail/frame__description.o: rosidl_generator_c/can_msgs/msg/detail/frame__description.c.o

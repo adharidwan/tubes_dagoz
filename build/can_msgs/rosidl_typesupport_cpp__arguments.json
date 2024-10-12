@@ -1,9 +1,9 @@
 {
   "package_name": "can_msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/can_msgs/rosidl_typesupport_cpp/can_msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_typesupport_cpp/can_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/can_msgs/rosidl_adapter/can_msgs:msg/Frame.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_adapter/can_msgs:msg/Frame.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -46,7 +46,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/adha/belajar/ws1/build/can_msgs/rosidl_adapter/can_msgs/msg/Frame.idl",
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/can_msgs/rosidl_adapter/can_msgs/msg/Frame.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",

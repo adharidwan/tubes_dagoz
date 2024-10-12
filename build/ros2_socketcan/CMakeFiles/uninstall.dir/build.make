@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/ros2_socketcan
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/adha/belajar/ws1/build/ros2_socketcan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan /home/adha/belajar/ws1/build/ros2_socketcan/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

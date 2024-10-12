@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"msgs\" -Dmsgs__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/adha/belajar/ws1/build/msgs/rosidl_generator_c -I/home/adha/belajar/ws1/build/msgs/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/include/python3.12
+C_INCLUDES = -I/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_c -I/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/include/python3.12
 
 C_FLAGS = -fPIC -Wall -Wextra
 

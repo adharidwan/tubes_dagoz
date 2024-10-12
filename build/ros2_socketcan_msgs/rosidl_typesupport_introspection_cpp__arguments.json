@@ -1,9 +1,9 @@
 {
   "package_name": "ros2_socketcan_msgs",
-  "output_dir": "/home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_typesupport_introspection_cpp/ros2_socketcan_msgs",
+  "output_dir": "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/rosidl_typesupport_introspection_cpp/ros2_socketcan_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_adapter/ros2_socketcan_msgs:msg/FdFrame.idl"
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/rosidl_adapter/ros2_socketcan_msgs:msg/FdFrame.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -48,7 +48,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_adapter/ros2_socketcan_msgs/msg/FdFrame.idl",
+    "/home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/rosidl_adapter/ros2_socketcan_msgs/msg/FdFrame.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",

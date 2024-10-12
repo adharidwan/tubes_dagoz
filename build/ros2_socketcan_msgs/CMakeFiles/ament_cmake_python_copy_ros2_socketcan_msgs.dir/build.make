@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan_msgs
+CMAKE_SOURCE_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adha/belajar/ws1/build/ros2_socketcan_msgs
+CMAKE_BINARY_DIR = /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs
 
 # Utility rule file for ament_cmake_python_copy_ros2_socketcan_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs:
-	/usr/bin/cmake -E copy_directory /home/adha/belajar/ws1/build/ros2_socketcan_msgs/rosidl_generator_py/ros2_socketcan_msgs /home/adha/belajar/ws1/build/ros2_socketcan_msgs/ament_cmake_python/ros2_socketcan_msgs/ros2_socketcan_msgs
+	/usr/bin/cmake -E copy_directory /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/rosidl_generator_py/ros2_socketcan_msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/ament_cmake_python/ros2_socketcan_msgs/ros2_socketcan_msgs
 
 ament_cmake_python_copy_ros2_socketcan_msgs: CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs
 ament_cmake_python_copy_ros2_socketcan_msgs: CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/depend:
-	cd /home/adha/belajar/ws1/build/ros2_socketcan_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan_msgs /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan_msgs /home/adha/belajar/ws1/build/ros2_socketcan_msgs /home/adha/belajar/ws1/build/ros2_socketcan_msgs /home/adha/belajar/ws1/build/ros2_socketcan_msgs/CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan_msgs /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan_msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs /home/alyazahrarr/tubesss/tubes_dagoz/build/ros2_socketcan_msgs/CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_ros2_socketcan_msgs.dir/depend
 

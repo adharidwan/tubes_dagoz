@@ -1,7 +1,7 @@
 CMakeFiles/ros2_socketcan.dir/src/socket_can_common.cpp.o: \
- /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan/src/socket_can_common.cpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan/src/socket_can_common.cpp \
  /usr/include/stdc-predef.h \
- /home/adha/belajar/ws1/src/ros2_socketcan/ros2_socketcan/include/ros2_socketcan/socket_can_common.hpp \
+ /home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan/include/ros2_socketcan/socket_can_common.hpp \
  /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

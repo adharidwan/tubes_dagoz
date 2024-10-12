@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_c.c"
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_introspection_c.c"
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/msg/__init__.py"
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/msg/_hardware_command.py"
-  "/home/adha/belajar/ws1/build/msgs/rosidl_generator_py/msgs/msg/_hardware_command_s.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/msg/__init__.py"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/msg/_hardware_command.py"
+  "/home/alyazahrarr/tubesss/tubes_dagoz/build/msgs/rosidl_generator_py/msgs/msg/_hardware_command_s.c"
   "CMakeFiles/msgs__py"
 )
 
