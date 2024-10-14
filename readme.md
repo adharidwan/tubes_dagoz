@@ -48,7 +48,6 @@ Simple control package for locomotion and expanding arm
     cd src
     make a new directories named ros2_socketcan then put ros2_socketcan,ros2_socketcan_msg and can_msgs package inside
     make sure ros2_socketcan looks like this:
-    ```
     ├── src              
     |   └── ros2_socketcan  
     |       └── ros2_socketcan
