@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [KRU 16](kru-16)
+- [KRU 16](#kru-16)
 - [General Information](#general-information)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
@@ -14,11 +14,11 @@
 
 ## KRU 16
 
-1. Muhammad Adha Ridwan
-2. Kesha Mufrih Ramadhan
-3. Sabilul Huda
-4. Bevinda Vivian
-5. Alya Zahra Raisa Rahma 
+1. Alya Zahra Raisa Rahma
+2. Bevinda Vivian
+3. Kesha Mufrih Ramadhan
+4. Muhammad Adha Ridwan
+5. Sabilul Huda 
 
 ## General Information
 
