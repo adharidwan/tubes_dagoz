@@ -45,7 +45,16 @@ Simple control package for locomotion and expanding arm
 
     git clone https://github.com/adharidwan/tubes_dagoz.git
     cd tubes_dagoz
+    cd src
     make a new directories named ros2_socketcan then put ros2_socketcan,ros2_socketcan_msg and can_msgs package inside
+    make sure ros2_socketcan looks like this:
+    ```
+├── src              
+|   └── ros2_socketcan  
+|       └── ros2_socketcan
+|       └── ros2_socketcan_msgs
+|       └── can_msgs
+    ```
     colcon build
 
 ## Structure
@@ -55,5 +64,8 @@ Simple control package for locomotion and expanding arm
 │   └── control         # contain all control node and code    
 |   └── launch          # contain launch package 
 |   └── ros2_socketcan  # contain autoware's ros2_socketcan wrapper for can_massage (https://github.com/autowarefoundation/ros2_socketcan)
+|       └── ros2_socketcan
+|       └── ros2_socketcan_msgs
+|       └── can_msgs
 └── README.md           # documentation
 └── .gitignore          # gitignore for launch,build,log and vscode settings
