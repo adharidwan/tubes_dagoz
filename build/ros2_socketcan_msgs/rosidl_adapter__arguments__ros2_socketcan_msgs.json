@@ -1,6 +1,0 @@
-{
-  "package_name": "ros2_socketcan_msgs",
-  "non_idl_tuples": [
-    "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/ros2_socketcan_msgs:msg/FdFrame.msg"
-  ]
-}

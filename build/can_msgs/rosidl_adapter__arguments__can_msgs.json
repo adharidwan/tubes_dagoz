@@ -1,6 +1,0 @@
-{
-  "package_name": "can_msgs",
-  "non_idl_tuples": [
-    "/home/alyazahrarr/tubesss/tubes_dagoz/src/ros2_socketcan/can_msgs:msg/Frame.msg"
-  ]
-}
