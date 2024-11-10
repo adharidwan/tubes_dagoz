@@ -73,5 +73,40 @@ Simple control package for locomotion and expanding arm
 
 ### Movements
 
-aaaa
+Ensure all packages are successfully built with colcon build, and that the ROS 2 Jazzy environment is set up.
+
+Locomotion Controls
+ 1. Basic Movement:
+
+    - Use the following keys to control the robot's movement:
+      - W: Move Forward
+      - A: Move Left
+      - S: Move Backward
+      - D: Move Right
+    - These controls enable basic movement for navigating the robot.
+    
+2. Running the Locomotion Nodes:
+    - Launch the keyboard_input node to enable keyboard controls:
+        ros2 run control keyboard_input
+    - Then, in a separate terminal, run the translator_locomotion node to translate the keyboard inputs         into movement actions:
+        ros2 run control translator_locomotion
+   
+Expanding and Retracting Arm Controls
+1. Arm Controls:
+
+    - Use the following keys to control the arm:
+      - UP Arrow: Extend arm
+      - DOWN Arrow: Retract arm
+      - RIGHT Arrow: Move arm to the right
+      - LEFT Arrow: Move arm to the left
+    - This allows smooth extension, retraction, and horizontal movement of the arm.
+
+2. Running the Arm Control Node:
+
+- Start the translator_expanding node in a new terminal to handle arm control commands:
+      ros2 run control translator_expanding
+  
+3. Testing the Controls:
+
+- After launching all nodes (keyboard_input, translator_locomotion, and translator_expanding), test each movement and arm control to ensure they respond correctly. Recommended to use tmux
 
