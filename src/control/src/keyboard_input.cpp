@@ -1,111 +1,91 @@
-#include <rclcpp/rclcpp.hpp>
-#include <geometry_msgs/msg/twist.hpp>
-#include <ncurses.h>
-#include <thread>
-#include <chrono>
-#include <mutex>
+#include <rclcpp/rclcpp.hpp>               // ROS2 library untuk membuat node
+#include <geometry_msgs/msg/twist.hpp>    // Pesan untuk kontrol kecepatan robot
+#include <ncurses.h>                      // Library untuk manipulasi input keyboard dan terminal
+#include <thread>                         // Library untuk threading
+#include <chrono>                         // Library untuk manajemen waktu
+#include <mutex>                          // Library untuk sinkronisasi akses data di multi-threading
+#include <std_msgs/msg/string.hpp>        // Pesan string untuk mengontrol ekstensi lengan robot
+#include <termios.h>                      // Library untuk pengaturan mode terminal
+#include <unistd.h>                       // Fungsi terkait terminal
+#include <iostream>                       // Library standar untuk input-output
 
-#include <std_msgs/msg/string.hpp>
-#include <termios.h>
-#include <unistd.h>
-#include <iostream>
-
+// Kelas utama untuk node ROS2 yang menangani input keyboard
 class KeyboardInputNode : public rclcpp::Node
 {
 public:
+    // Konstruktor untuk inisialisasi node
     KeyboardInputNode() : Node("keyboard_input_node"), velocity_duration_(3.0)
     {
+        // Membuat publisher untuk mengirim perintah kecepatan robot
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
-        initscr();
-        cbreak();
-        noecho(); 
-        keypad(stdscr, TRUE); 
+        // Inisialisasi ncurses untuk input keyboard
+        initscr();       // Memulai mode ncurses
+        cbreak();        // Mematikan buffering input
+        noecho();        // Mematikan echo input
+        keypad(stdscr, TRUE); // Mengaktifkan deteksi tombol khusus (seperti panah)
 
+        // Inisialisasi pesan kecepatan dengan nilai nol
         velocity_msg_.linear.x = 0.0;
         velocity_msg_.linear.y = 0.0;
 
+        // Membuat thread untuk loop kontrol input
         control_thread_ = std::thread(&KeyboardInputNode::controlLoop, this);
 
+        // Membuat publisher untuk mengirim perintah ekstensi lengan
         publisher_exp = this->create_publisher<std_msgs::msg::String>("goalkeeper/extend_arm", 10);
+
+        // Mengatur terminal untuk mode non-kanonik
         setup_terminal();
     }
 
+    // Destruktor untuk membersihkan sumber daya
     ~KeyboardInputNode()
     {
-        endwin();
+        endwin();  // Menutup mode ncurses
         if (control_thread_.joinable()) {
-            control_thread_.join();
+            control_thread_.join();  // Menunggu thread selesai
         }
     }
 
-    // // Fungsi untuk menerima input dari tombol panah
-    // void process_input()
-    // {
-    //     char input;
-    //     input = getchar();  // Menangkap input dari keyboard
-
-    //     // Memeriksa apakah tombol panah ditekan
-    //     if (input == 27) {  // ESC character
-    //         input = getchar();  // Membaca karakter berikutnya
-    //         if (input == 91) {  // Character '['
-    //             input = getchar();  // Membaca kode panah
-    //             auto message = std_msgs::msg::String();
-    //             if (input == 65) {
-    //                 // Panah atas untuk ekstensi lengan ke atas
-    //                 message.data = "up";
-    //                 publisher_exp->publish(message);
-    //                 RCLCPP_INFO(this->get_logger(), "Extending arm upwards.");
-    //             } else if (input == 67) {
-    //                 // Panah kanan untuk ekstensi lengan ke kanan
-    //                 message.data = "right";
-    //                 publisher_exp->publish(message);
-    //                 RCLCPP_INFO(this->get_logger(), "Extending arm to the right.");
-    //             } else if (input == 68) {
-    //                 // Panah kiri untuk ekstensi lengan ke kiri
-    //                 message.data = "left";
-    //                 publisher_exp->publish(message);
-    //                 RCLCPP_INFO(this->get_logger(), "Extending arm to the left.");
-    //             }
-    //         }
-    //     }
-    // }
-
 private:
+    // Fungsi utama untuk membaca input keyboard dan mengontrol robot
     void controlLoop()
     {
-        int ch;
-        while (rclcpp::ok())
+        int ch; // Variabel untuk menyimpan input keyboard
+        while (rclcpp::ok()) // Loop utama selama ROS aktif
         {
-            ch = getch(); 
-            // auto start_time = std::chrono::steady_clock::now(); 
+            ch = getch(); // Membaca input keyboard
             switch (ch)
             {
-                case 'w':
-                    updateVelocity(1.0, 0.0);   
+                case 'w': // Maju
+                    updateVelocity(1.0, 0.0);
                     break;
-                case 's':
+                case 's': // Mundur
                     updateVelocity(-1.0, 0.0);
                     break;
-                case 'a':
+                case 'a': // Geser kiri
                     updateVelocity(0.0, -1.0);
                     break;
-                case 'd':
+                case 'd': // Geser kanan
                     updateVelocity(0.0, 1.0);
                     break;
-                case KEY_UP:
+                case KEY_UP: // Panah atas: perintah ekstensi lengan ke atas
                     message.data = "up";
                     publisher_exp->publish(message);
                     RCLCPP_INFO(this->get_logger(), "Extending arm upwards.");
-                case KEY_LEFT:
+                    break;
+                case KEY_LEFT: // Panah kiri: perintah ekstensi lengan ke kiri
                     message.data = "left";
                     publisher_exp->publish(message);
                     RCLCPP_INFO(this->get_logger(), "Extending arm to the left.");
-                case KEY_RIGHT:
+                    break;
+                case KEY_RIGHT: // Panah kanan: perintah ekstensi lengan ke kanan
                     message.data = "right";
                     publisher_exp->publish(message);
                     RCLCPP_INFO(this->get_logger(), "Extending arm to the right.");
-                case 'q':
+                    break;
+                case 'q': // Keluar program
                     RCLCPP_INFO(this->get_logger(), "Exiting...");
                     rclcpp::shutdown();
                     return;
@@ -113,56 +93,53 @@ private:
                     break;
             }
 
+            // Memberikan jeda sebelum kecepatan direset
             std::this_thread::sleep_for(std::chrono::duration<double>(velocity_duration_));
-            resetVelocity();
-
+            resetVelocity(); // Mengatur ulang kecepatan ke nol
         }
     }
 
+    // Fungsi untuk memperbarui kecepatan linear robot
     void updateVelocity(double linearx, double lineary)
     {
-        std::lock_guard<std::mutex> lock(mutex_);
+        std::lock_guard<std::mutex> lock(mutex_); // Mengamankan akses ke pesan kecepatan
         velocity_msg_.linear.x = linearx;
         velocity_msg_.linear.y = lineary;
-        publisher_->publish(velocity_msg_);
-        // RCLCPP_INFO(this->get_logger(), "Published linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
+        publisher_->publish(velocity_msg_); // Mengirim pesan kecepatan
     }
 
+    // Fungsi untuk mengatur ulang kecepatan ke nol
     void resetVelocity()
     {
-        std::lock_guard<std::mutex> lock(mutex_);
+        std::lock_guard<std::mutex> lock(mutex_); // Mengamankan akses ke pesan kecepatan
         velocity_msg_.linear.x = 0.0;
         velocity_msg_.linear.y = 0.0;
-        publisher_->publish(velocity_msg_);
-        // RCLCPP_INFO(this->get_logger(), "Resetted back after 1s = linear velocity x: %.2f, linear velocity y: %.2f",velocity_msg_.linear.x, velocity_msg_.linear.y);
+        publisher_->publish(velocity_msg_); // Mengirim pesan kecepatan
     }
 
+    // Fungsi untuk mengatur terminal ke mode non-kanonik
     void setup_terminal()
     {
         struct termios settings;
-        tcgetattr(STDIN_FILENO, &settings);
-        settings.c_lflag &= ~(ICANON | ECHO);  // Matikan mode kanonik dan echo
-        tcsetattr(STDIN_FILENO, TCSANOW, &settings);
+        tcgetattr(STDIN_FILENO, &settings); // Membaca pengaturan terminal
+        settings.c_lflag &= ~(ICANON | ECHO); // Mematikan mode kanonik dan echo
+        tcsetattr(STDIN_FILENO, TCSANOW, &settings); // Menerapkan pengaturan
     }
 
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_exp;
-    geometry_msgs::msg::Twist velocity_msg_;
-    std_msgs::msg::String message;
-    std::thread control_thread_;
-    double velocity_duration_;  
-    std::mutex mutex_;           
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; // Publisher untuk perintah kecepatan
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_exp; // Publisher untuk perintah lengan
+    geometry_msgs::msg::Twist velocity_msg_;  // Pesan untuk menyimpan kecepatan
+    std_msgs::msg::String message;           // Pesan untuk menyimpan perintah ekstensi lengan
+    std::thread control_thread_;             // Thread untuk loop kontrol
+    double velocity_duration_;               // Durasi kecepatan sebelum reset
+    std::mutex mutex_;                       // Mutex untuk sinkronisasi akses data
 };
 
 int main(int argc, char * argv[])
 {
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<KeyboardInputNode>();
-    // while (rclcpp::ok()) {
-    //     node->process_input();
-    //     rclcpp::spin_some(node);
-    // }
-    rclcpp::spin(node);
-    rclcpp::shutdown();
+    rclcpp::init(argc, argv); // Inisialisasi ROS2
+    auto node = std::make_shared<KeyboardInputNode>(); // Membuat node
+    rclcpp::spin(node); // Menjalankan node
+    rclcpp::shutdown(); // Mematikan ROS2
     return 0;
 }
