@@ -55,6 +55,7 @@ Simple control package for locomotion and expanding arm
     |       └── can_msgs
     colcon build
     ros2 launch control my_launch_file.launch.py
+    ros2 launch ros2_socketcan socket_can_bridge.launch.xml
 
 ## Structure
 
