@@ -73,17 +73,17 @@ private:
                 case KEY_UP: // Panah atas: perintah ekstensi lengan ke atas
                     message.data = "up";
                     publisher_exp->publish(message);
-                    RCLCPP_INFO(this->get_logger(), "Extending arm upwards.");
+                    // RCLCPP_INFO(this->get_logger(), "Extending arm upwards.");
                     break;
                 case KEY_LEFT: // Panah kiri: perintah ekstensi lengan ke kiri
                     message.data = "left";
                     publisher_exp->publish(message);
-                    RCLCPP_INFO(this->get_logger(), "Extending arm to the left.");
+                    // RCLCPP_INFO(this->get_logger(), "Extending arm to the left.");
                     break;
                 case KEY_RIGHT: // Panah kanan: perintah ekstensi lengan ke kanan
                     message.data = "right";
                     publisher_exp->publish(message);
-                    RCLCPP_INFO(this->get_logger(), "Extending arm to the right.");
+                    // RCLCPP_INFO(this->get_logger(), "Extending arm to the right.");
                     break;
                 case 'q': // Keluar program
                     RCLCPP_INFO(this->get_logger(), "Exiting...");
